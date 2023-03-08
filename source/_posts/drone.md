@@ -23,12 +23,15 @@ JUnit was used for unit testing to ensure that merge requests are not causing te
 
 
 
-Video (no audio) of moving the object (a sheep), visiting an object, changing its price, deleting the object:
-<video controls>
-    <source="/videos/ag_drone-visit_change_delete_q47_vp9.webm">
+Video (no audio) of moving the object (a sheep), drone simulation visiting an object, changing its price, deleting the object:
+<video controls width="620">
+    <source src="/videos/ag_drone-visit_change_delete_q47_vp9.webm" type="video/webm" codecs="vp9">
+    Download the <a href="/videos/ag_drone-visit_change_delete_q47_vp9.webm">WEBM</a>
 </video>
 
-Video of drone scanning the farm (no audio):
-<video controls>
-    <source="/videos/ag_drone-scan_q70_vp9.webm">
+Video of drone simulation scanning the farm (no audio):
+<video controls  width="620">
+    <source src="/videos/ag_drone-scan_q70_vp9.webm" type="video/webm" codecs="vp9">
+    Download the <a href="/videos/ag_drone-scan_q70_vp9.webm">WEBM</a>
 </video>
+
