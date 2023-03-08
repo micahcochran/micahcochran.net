@@ -15,7 +15,7 @@
   
   <link rel="canonical" href="https://www.micahcochran.net/projects/recipe/">
   
-  <meta name="description" content="scrape-schema-recipe is a Python library that scrapes recipes from websites and HTML files.  Those recipes are structured using the schema.org&amp;#x2F;Re">
+  <meta name="description" content="scrape-schema-recipe is a Python library that scrapes recipes from websites and HTML files.  Those recipes are structured microdata using the schema.o">
   
   
   <meta name="keywords" content="resume">
@@ -28,14 +28,14 @@
   <meta property="og:type" content="article" />
   <meta property="og:title" content="scrape-schema-recipe Library" />
   
-  <meta property="og:description" content="scrape-schema-recipe is a Python library that scrapes recipes from websites and HTML files.  Those recipes are structured using the schema.org&amp;#x2F;Re">
+  <meta property="og:description" content="scrape-schema-recipe is a Python library that scrapes recipes from websites and HTML files.  Those recipes are structured microdata using the schema.o">
   
   <meta property="og:url" content="https://www.micahcochran.net/projects/recipe/" />
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="scrape-schema-recipe Library">
   
-  <meta name="twitter:description" content="scrape-schema-recipe is a Python library that scrapes recipes from websites and HTML files.  Those recipes are structured using the schema.org&amp;#x2F;Re">
+  <meta name="twitter:description" content="scrape-schema-recipe is a Python library that scrapes recipes from websites and HTML files.  Those recipes are structured microdata using the schema.o">
   
   
   
@@ -199,7 +199,7 @@
         <div class="trans">
             <h2>scrape-schema-recipe Library</h2>
 
-  <p><a target="_blank" rel="noopener" href="https://github.com/micahcochran/scrape-schema-recipe">scrape-schema-recipe</a> is a Python library that scrapes recipes from websites and HTML files.  Those recipes are structured using the <a target="_blank" rel="noopener" href="http://schema.org/Recipe/">schema.org&#x2F;Recipe format</a>.  It returns that representation as a list of dictionaries (there could be multiple recipes on a webpage such as a cookbook).</p>
+  <p><a target="_blank" rel="noopener" href="https://github.com/micahcochran/scrape-schema-recipe">scrape-schema-recipe</a> is a Python library that scrapes recipes from websites and HTML files.  Those recipes are structured microdata using the <a target="_blank" rel="noopener" href="http://schema.org/Recipe/">schema.org&#x2F;Recipe format</a>.  It returns that representation as a list of dictionaries (there could be multiple recipes on a webpage such as a cookbook).</p>
 <p>Below is a screenshot of a <a target="_blank" rel="noopener" href="https://medlineplus.gov/recipes/chicken-and-black-bean-salsa-burritos/">recipe for Chicken and Black Bean Salsa Burritos</a> on the MedlinePlus website:<br><img src="/images/ssr/ssr-medlineplus.webp" alt="Image of recipe" title="Screenshot of recipe for &#39;Chicken and Black Bean Salsa Burritos&#39; on MedlinePlus website."></p>
 <p>Below is what that structured data from the above recipe looks in a Python dictionary (very similar to a JSON representation):<br><img src="/images/ssr/ssr-dict-recipe.webp" alt="Image of schema.org/Recipe data" title="Python Dictionary of &#39;Chicken and Black Bean Salsa Burritos&#39;"></p>
 <p>Here’s the Python code to print the above:</p>
@@ -214,9 +214,9 @@ pprint.pprint(recipe)
 </code></pre>
 
 <p>This library scrapes the source and gives the results at a list of dictionaries.  The code can convert the some data into native Python objects, so dates into <code>datetime.date</code> objects, and durations (like “Cook Time: 30 minutes”) into <code>datetime.timedelta</code> objects (<code>datetime.timedelta(seconds=1800)</code> - minutes are not a unit used by timedelta). Other software can use this to scrape this recipe information from a URL or an HTML file.</p>
-<p>Since schema.org&#x2F;Recipe data is structured, this allows a pattern that frontend and backend web developers to have a standard way to structure recipe data on any projects.  That structured data can be used by other software for copying that recipe or doing something else with it that recipe (software doing nutrition calculations or checking if it meets a specific diet).</p>
+<p>Since schema.org&#x2F;Recipe data is structured microdata, this is a pattern that web designers and frontend web developers can have a standard way to structure recipe data on any projects.  There are multiple patterns like this (see <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Microdata">Microdata</a>).  Others software can copying that structured recipe or doing something else with it that it (software doing nutrition calculations, checking if it meets a specific diet, or putting it onto a recipe webiste).</p>
 <p>schema.org&#x2F;Recipe specification, which has multiple properties that makeup the structure:<br><img src="/images/ssr/ssr-schema-org-recipe.webp" alt="picture of the website schema.org/Recipe specification" title="schema.org/Recipe specification, which has multiple properties that makeup the structure."> </p>
-<p>This project has unit testing to ensure that any future changes do not break existing functionality.</p>
+<p>This project has unit testing to ensure that future changes do not break existing functionality.</p>
 <p>This library is hosted on <a target="_blank" rel="noopener" href="https://pypi.org/project/scrape-schema-recipe/">pypi</a> for anyone to be able to install via the <code>pip</code> with the command <code>pip install scrape-schema-recipe</code>.</p>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
 <script>hljs.highlightAll();</script>
