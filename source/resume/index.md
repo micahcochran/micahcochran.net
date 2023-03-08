@@ -38,24 +38,38 @@ theme: minima
 
 ## Who Am I
 
-I am an MS student of Computer Science at the University of Alabama at Birmingham.  I have years of 16 years experience in local government working for a Public Works Department with land development law and Geographic Information Systems (GIS).  My ideal job would be a software development job in a related field.
+I am an MS student of Computer Science at the University of Alabama at Birmingham.  I have years of 16 years experience in local government working for a Public Works Department with land development law and Geographic Information Systems (GIS).  My ideal job would be a doing software development in a field related to my prior work experience.
 
 
 ## Work
+
 <ul>
     <h3 itemprop="jobTitle">Student Worker IT Services</h3>
         <ul>
+            <li>September 2021 - present</li>
             <li>
                 <div itemscope itemtype="https://schema.org/Organization">
                     <span itemprop="name">University of Alabama at Birmingham Computer Science Department</span>
                     <link itemprop="sameAs" href="https://www.uab.edu/cas/computerscience/">
                     </div>
             </li>
-            <li>September 2021 - present</li>
+            <li>Duties: Setting up computers for graduate students. Updating software on lab computers.</li>
+        </ul>
+    <h3 itemprop="jobTitle">Teaching Assistant</h3>
+        <ul>
+            <li>September 2022 - December 2022</li>
+            <li>
+                <div itemscope itemtype="https://schema.org/Organization">
+                    <span itemprop="name">University of Alabama at Birmingham Computer Science Department</span>
+                    <link itemprop="sameAs" href="https://www.uab.edu/cas/computerscience/">
+                    </div>
+            </li>
+            <li>for the class CS 221 Web Development</li>
         </ul>
     <h3 itemprop="jobTitle">Geospatial Services Contractor</h3>
         <ul>
             <li>August 2021 - May 2022</li>
+            <li>Redraw voting districts based on 2020 Census.</li>
         </ul>
     <h3 itemprop="jobTitle">GIS (Geographic Information Systems) Administrator/Coordinator</h3> 
         <ul>
@@ -68,7 +82,7 @@ I am an MS student of Computer Science at the University of Alabama at Birmingha
             <li>Accomplishments: Migrated maps from paper to online interactive maps. Migrated applications from paper to PDFs. Moved site plan review to digital review and digital document signing. Served as liaison to FEMA during declared disasters in 2011 and 2014.
             </li>
             <li>Regular duties included approving plans based on city regulations and
-            communicating with developers about regulations and Geospatial data.</li>
+            communicating with developers about regulations and maintaining Geospatial databases.</li>
             <li> Lead a multi-department/agency Consortium contracting three countywide aerial photography flights.</li>
             <li><a href="/projects/gismaps/">GIS Map Portfolio</a></li>
         </ul>

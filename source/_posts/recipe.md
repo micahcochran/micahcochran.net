@@ -10,7 +10,7 @@ tags:
 categories:
     - projects
 ---
-[scrape-schema-recipe](https://github.com/micahcochran/scrape-schema-recipe) is a Python library that scrapes recipes from websites and HTML files.  Those recipes are structured using the [schema.org/Recipe format](http://schema.org/Recipe/).  It returns that representation as a list of dictionaries (there could be multiple recipes on a webpage such as a cookbook).
+[scrape-schema-recipe](https://github.com/micahcochran/scrape-schema-recipe) is a Python library that scrapes recipes from websites and HTML files.  Those recipes are structured microdata using the [schema.org/Recipe format](http://schema.org/Recipe/).  It returns that representation as a list of dictionaries (there could be multiple recipes on a webpage such as a cookbook).
 
 
 Below is a screenshot of a [recipe for Chicken and Black Bean Salsa Burritos](https://medlineplus.gov/recipes/chicken-and-black-bean-salsa-burritos/) on the MedlinePlus website:
@@ -33,12 +33,12 @@ pprint.pprint(recipe)
 
 This library scrapes the source and gives the results at a list of dictionaries.  The code can convert the some data into native Python objects, so dates into `datetime.date` objects, and durations (like "Cook Time: 30 minutes") into `datetime.timedelta` objects (`datetime.timedelta(seconds=1800)` - minutes are not a unit used by timedelta). Other software can use this to scrape this recipe information from a URL or an HTML file.
 
-Since schema.org/Recipe data is structured, this allows a pattern that frontend and backend web developers to have a standard way to structure recipe data on any projects.  That structured data can be used by other software for copying that recipe or doing something else with it that recipe (software doing nutrition calculations or checking if it meets a specific diet).
+Since schema.org/Recipe data is structured microdata, this is a pattern that web designers and frontend web developers can have a standard way to structure recipe data on any projects.  There are multiple patterns like this (see [Microdata](https://developer.mozilla.org/en-US/docs/Web/HTML/Microdata)).  Others software can copying that structured recipe or doing something else with it that it (software doing nutrition calculations, checking if it meets a specific diet, or putting it onto a recipe webiste).
 
 schema.org/Recipe specification, which has multiple properties that makeup the structure:
 ![picture of the website schema.org/Recipe specification](/images/ssr/ssr-schema-org-recipe.webp "schema.org/Recipe specification, which has multiple properties that makeup the structure.") 
 
-This project has unit testing to ensure that any future changes do not break existing functionality.
+This project has unit testing to ensure that future changes do not break existing functionality.
 
 This library is hosted on [pypi](https://pypi.org/project/scrape-schema-recipe/) for anyone to be able to install via the `pip` with the command `pip install scrape-schema-recipe`.
 
