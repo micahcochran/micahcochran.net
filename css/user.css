@@ -1,0 +1,27 @@
+/* import  stylesheet for asciinema */
+@import url("/ascii/asciinema-player.css");
+@import url("/ascii/urban.css");
+
+/* styles resume nav bar */
+nav.resume-nav ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+nav.resume-nav ul li + li:before {
+    content: " · ";
+    padding: 0 5px;
+}
+
+nav.resume-nav {
+    background-color: #eee;
+}
+
+body.darkmode nav.resume-nav {
+    background-color: #444;
+}
+
+
+img.resume-prj-img {
+    float: right;
+}
