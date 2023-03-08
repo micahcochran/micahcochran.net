@@ -1,0 +1,119 @@
+/* Based on urban theme from David Walter - https://github.com/divadretlaw/urban */
+
+.asciinema-theme-urban .asciinema-terminal {
+  color: #E7E8EB;                    /* default text color */
+  background-color: #292A2F;         /* terminal background color */
+  border-color: #272822;
+}
+.asciinema-theme-urban .fg-bg {    /* inverse for default text color */
+  color: #47515F;
+}
+.asciinema-theme-urban .bg-fg {    /* inverse for terminal background color */
+  background-color: #E7E8EB;
+}
+.asciinema-theme-urban .fg-0 {
+  color: #292A2F;
+}
+.asciinema-theme-urban .bg-0 {
+  background-color: #292A2F;
+}
+.asciinema-theme-urban .fg-1 {
+  color: #DE3A3B;
+}
+.asciinema-theme-urban .bg-1 {
+  background-color: #DE3A3B;
+}
+.asciinema-theme-urban .fg-2 {
+  color: #51C34F;
+}
+.asciinema-theme-urban .bg-2 {
+  background-color: #51C34F;
+}
+.asciinema-theme-urban .fg-3 {
+  color: #FEF935;
+}
+.asciinema-theme-urban .bg-3 {
+  background-color: #FEF935;
+}
+.asciinema-theme-urban .fg-4 {
+  color: #0A6FFF;
+}
+.asciinema-theme-urban .bg-4 {
+  background-color: #0A6FFF;
+}
+.asciinema-theme-urban .fg-5 {
+  color: #E12DA0;
+}
+.asciinema-theme-urban .bg-5 {
+  background-color: #E12DA0;
+}
+.asciinema-theme-urban .fg-6 {
+  color: #2CB6B1;
+}
+.asciinema-theme-urban .bg-6 {
+  background-color: #2CB6B1;
+}
+.asciinema-theme-urban .fg-7 {
+  color: #E7E8EB;
+}
+.asciinema-theme-urban .bg-7 {
+  background-color: #E7E8EB;
+}
+.asciinema-theme-urban .fg-8 {
+  color: #363945;
+}
+.asciinema-theme-urban .bg-8 {
+  background-color: #363945;
+}
+.asciinema-theme-urban .fg-9 {
+  color: #FC6A5D;
+}
+.asciinema-theme-urban .bg-9 {
+  background-color: #FC6A5D;
+}
+.asciinema-theme-urban .fg-10 {
+  color: #ADD681;
+}
+.asciinema-theme-urban .bg-10 {
+  background-color: #ADD681;
+}
+.asciinema-theme-urban .fg-11 {
+  color: #FEFB85;
+}
+.asciinema-theme-urban .bg-11 {
+  background-color: #FEFB85;
+}
+.asciinema-theme-urban .fg-12 {
+  color: #74B6F6;
+}
+.asciinema-theme-urban .bg-12 {
+  background-color: #74B6F6;
+}
+.asciinema-theme-urban .fg-13 {
+  color: #EF82B1;
+}
+.asciinema-theme-urban .bg-13 {
+  background-color: #EF82B1;
+}
+.asciinema-theme-urban .fg-14 {
+  color: #99E8D5;
+}
+.asciinema-theme-urban .bg-14 {
+  background-color: #99E8D5;
+}
+.asciinema-theme-urban .fg-15 {
+  color: #FFFFFF;
+}
+.asciinema-theme-urban .bg-15 {
+  background-color: #FFFFFF;
+}
+.asciinema-theme-urban .fg-8,
+.asciinema-theme-urban .fg-9,
+.asciinema-theme-urban .fg-10,
+.asciinema-theme-urban .fg-11,
+.asciinema-theme-urban .fg-12,
+.asciinema-theme-urban .fg-13,
+.asciinema-theme-urban .fg-14,
+.asciinema-theme-urban .fg-15 {
+  font-weight: bold;
+}
