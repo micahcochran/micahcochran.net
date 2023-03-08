@@ -43,7 +43,7 @@ The concept was to make small design improvements that could make the text more 
 
 <figure>
     <img src="/images/ltext/4_search_results.webp">
-    <figcaption>Search results for "governor".</figcaption>
+    <figcaption>Search results for &ldquo;governor&rdquo;.</figcaption>
 </figure>
 
 <figure>
