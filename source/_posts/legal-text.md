@@ -3,12 +3,12 @@ title: Legal Text Website
 date: 2023-02-12 17:28:00
 tags: 
     - Python
-    - Web
     - Flask
     - CS621
     - MongoDB
     - SQLite
     - BeautifulSoup
+    - website
 categories:
     - projects
 ---

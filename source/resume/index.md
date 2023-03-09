@@ -25,14 +25,14 @@ theme: minima
 
 <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
     <img data-feather="map-pin" alt="Address">
-    <span itemprop="streetAddress">3673 Saint Clair RD</span>,
+    <span itemprop="streetAddress"> 3673 Saint Clair RD</span>,
     <span itemprop="addressLocality">Springville</span>,
     <span itemprop="addressRegion">AL</span>
     <span itemprop="postalCode">35146</span><br>
 </address>
-<img data-feather="mail" alt="Email"></i><a href="mailto:mdcochra@uab.edu" itemprop="email">mdcochra@uab.edu</a><br>
-<img data-feather="github"><a href="https://github.com/micahcochran">GitHub: micahcochran</a><br>
-<img data-feather="phone" alt="Phone"><a itemprop="telephone" href="tel:+12563942304">256-394-2304</a><br>
+<img data-feather="mail" alt="Email"></i><a href="mailto:mdcochra@uab.edu" itemprop="email"> mdcochra@uab.edu</a><br>
+<img data-feather="github"><a href="https://github.com/micahcochran"> GitHub: micahcochran</a><br>
+<img data-feather="phone" alt="Phone"><a itemprop="telephone" href="tel:+12563942304"> 256-394-2304</a><br>
 <br>
 
 

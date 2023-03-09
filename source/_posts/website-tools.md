@@ -2,6 +2,9 @@
 title: Website Tools
 date: 2023-02-28 13:41:22
 tags:
+    - website
+categories:
+    - projects
 ---
 
 Heres a selection of the software used to create this website:

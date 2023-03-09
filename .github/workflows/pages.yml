@@ -21,7 +21,8 @@ jobs:
         with:
           node-version: '18'
       - name: Cache NPM dependencies
-        uses: actions/cache@v2
+        # updated v2 to v3 for warnings 
+        uses: actions/cache@v3
         with:
           path: node_modules
           key: ${{ runner.OS }}-npm-cache

@@ -10,7 +10,8 @@ _multiconfig.yml
 source/_drafts/
 
 # per https://hexo.io/docs/github-pages
-public/
+# unsure if this helps or not
+# public/
 
 # one off
 /source/ascii/colortest2.cast
