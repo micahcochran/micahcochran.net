@@ -19,6 +19,8 @@ The whole idea is to use natural language questions to about Zoning instead of h
 
 ## Terminal Screencast
 
+Best viewed full screen.
+
 <div id="screencast-player"></div>
 
 <br>

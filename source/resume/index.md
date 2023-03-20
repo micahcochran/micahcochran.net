@@ -38,7 +38,7 @@ theme: minima
 
 ## Who Am I
 
-I am an MS student of Computer Science at the University of Alabama at Birmingham.  I have years of 16 years experience in local government working for a Public Works Department with land development law and Geographic Information Systems (GIS).  My ideal job would be a doing software development in a field related to my prior work experience.
+I am an MS student of Computer Science at the University of Alabama at Birmingham.  I have years of 16 years experience in working for a municipal Public Works Department with land development law and Geographic Information Systems (GIS).  My ideal job would be a doing software development in a field related to my prior work experience.
 
 
 ## Work
