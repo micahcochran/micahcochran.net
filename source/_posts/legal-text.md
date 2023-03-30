@@ -18,7 +18,7 @@ The task was to scrape the 1901 Constitution of Alabama, and build website that 
 
 ## State's Design
 
-This is the State of Alabama's design to display the Alabama Constitution as of 2022 with amendments ([Source](http://alisondb.legislature.state.al.us/alison/CodeOfAlabama/Constitution/1901/Constitution1901_toc.htm)).  The design is very basic.
+This is the [State of Alabama's design](http://alisondb.legislature.state.al.us/alison/CodeOfAlabama/Constitution/1901/Constitution1901_toc.htm) to display the Alabama Constitution as of 2022 with amendments.  Their design is very basic.
 
 
 <figure>
@@ -38,7 +38,7 @@ The concept was to make small design improvements that could make the text more 
 
 <figure>
     <img src="/images/ltext/2_links.webp">
-    <figcaption>Click on the chain icon and it copies the link that section to the clipboard.</figcaption>
+    <figcaption>Click on the chain icon and it copies the link that section to the clipboard.  This feature only works on the Chrome based browsers.</figcaption>
 </figure>
 
 <figure>
@@ -83,4 +83,4 @@ The Frontend is HTML and a small amount of Javascript.  The backend is Flask lib
 
 The scraper was custom Python code (using BeautifulSoup library).  It was written in a manner to allows legal codes scraping from other websites. These scraper would need some level of customization.
 
-I was the sole group member on the project for class CS 621 Advanced Web Application Development.
+Sole group member on the project for class CS 621 Advanced Web Application Development.

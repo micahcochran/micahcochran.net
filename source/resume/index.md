@@ -18,6 +18,8 @@ theme: minima
 
 </nav>
 
+<img data-feather="file-text">[PDF copy](/pdfs/resume.pdf) of Resume
+
 <article itemscope itemtype="https://schema.org/Person">
 
 
@@ -30,7 +32,7 @@ theme: minima
     <span itemprop="addressRegion">AL</span>
     <span itemprop="postalCode">35146</span><br>
 </address>
-<img data-feather="mail" alt="Email"></i><a href="mailto:mdcochra@uab.edu" itemprop="email"> mdcochra@uab.edu</a><br>
+<img data-feather="mail" alt="Email"><a href="mailto:mdcochra@uab.edu" itemprop="email"> mdcochra@uab.edu</a><br>
 <img data-feather="github"><a href="https://github.com/micahcochran"> GitHub: micahcochran</a><br>
 <img data-feather="phone" alt="Phone"><a itemprop="telephone" href="tel:+12563942304"> 256-394-2304</a><br>
 <br>
@@ -38,7 +40,7 @@ theme: minima
 
 ## Who Am I
 
-I am an MS student of Computer Science at the University of Alabama at Birmingham.  I have years of 16 years experience in working for a municipal Public Works Department with land development law and Geographic Information Systems (GIS).  My ideal job would be a doing software development in a field related to my prior work experience.
+I am an MS student of Computer Science at the University of Alabama at Birmingham.  I have 16 years experience in working for a municipal Public Works Department with land development law and Geographic Information Systems (GIS).  My ideal job would be a doing software development in a field related to my prior work experience.
 
 
 ## Work
@@ -111,15 +113,15 @@ I am an MS student of Computer Science at the University of Alabama at Birmingha
 * Language: <a href="/tags/Python/" itemprop="knowsAbout">Python</a>, <span itemprop="knowsAbout">C</span>, [Java](/tags/Java/), <span itemprop="knowsAbout">JavaScript</span>, <span itemprop="knowsAbout">Racket</span>
 * Framework: <a href="/tags/Flask/" itemprop="knowsAbout">Flask</a>
 * Database: <a href="/tags/MongoDB/" itemprop="knowsAbout">MongoDB</a>
-* Tool: <span itemprop="knowsAbout">git</span> / [GitHub](https://github.com/micahcochran) / GitLab, Visual Studio Code, <span itemprop="knowsAbout">Docker</span>, <span itemprop="knowsAbout">Amazon Web Services</span>
-* GIS Software: ArcGIS Desktop / QGIS
+* Tool: <span itemprop="knowsAbout">git</span> / [GitHub](https://github.com/micahcochran) / GitLab, Visual Studio Code, <span itemprop="knowsAbout">Docker</span>, <span itemprop="knowsAbout">Amazon Web Services</span>, <span itemprop="knowsAbout">pandoc</span>
+* GIS Software: <span itemprop="knowsAbout">ArcGIS Desktop</span>, <span itemprop="knowsAbout">QGIS</span>
 
 
 ## Projects
 
 ### [Zoning Ordinance Question Answering](/projects/zoning-qa/)		
 * October to December 2022
-* Team project to create a system that that answers natural language questions about Zoning Ordinance laws.  The Question Answering System created SPARQL queries based on the question and executed those queries on a Knowledge Graph to get an answer.  A Knowledge graph was created for Zoning Ordinance laws.  
+* Team project to create a system that answers natural language questions about Zoning Ordinance laws.  The Question Answering System created SPARQL queries based on the question and executed those queries on a Knowledge Graph to get an answer.  A Knowledge graph was created for Zoning Ordinance laws.
 
 ### [Legal Text Website](/projects/legal-text/)
 
@@ -133,7 +135,7 @@ I am an MS student of Computer Science at the University of Alabama at Birmingha
 <a href="/projects/drone/"><img src="/images/resume/ag_drone-250px.webp" class="resume-prj-img"></a>
 
 * October 2021 to December 2021
-* I led a four person team to build a software that did agricultural drone scanning.  The software simulated a flight on the screen and also flew a physical drone.  My team explored the software development process with use cases, drawing state charts, and implementation of the software in [Java](/tags/Java/) & JavaFX.  The project was for the CS 520 Software Engineering class.
+* Led a four person team to build a software that did agricultural drone scanning.  The software simulated a flight on the screen and also flew a physical drone.  My team explored the software development process with use cases, state charts, and implementing the software in [Java](/tags/Java/) and JavaFX.  This was the final project for the CS 520 Software Engineering class.
 
 ### [recipe-crawler](/projects/recipe-crawler/)
 * June 2021 to present
@@ -142,19 +144,19 @@ I am an MS student of Computer Science at the University of Alabama at Birmingha
 
 ### request_builder.py
 * 2020 to August 2021
-* Command line software that generates agendas and notices using Word Document templates from applicant requests.  The requests were made by applicants submit a PDF application.  The software generates agendas and public notices using templates tailored to City of Athens processes and messaging.  This software was programmed in Python.
+* Command line software that generates agendas and notices using Word Document templates from applicant requests.  The requests were made by applicants submit a PDF application.  The Python software generates agendas and public notices using templates tailored to City of Athens processes and messaging.
 * Programmer and user of software.
 
 ### [scrape-schema-recipe](/projects/recipe/)
 <a href="/projects/recipe/"><img src="/images/resume/ssr-dict-recipe-250px.webp" class="resume-prj-img"></a>
 
 * 2018 to present
-* Scrapes recipes from HTML [https://schema.org/Recipe](https://schema.org/Recipe) (Microdata/JSON-LD) into Python dictionaries. This is an open source library that allows others to use this to build software that uses this.  I programmed the software and maintain the repository.
+* Scrapes recipes from HTML [https://schema.org/Recipe](https://schema.org/Recipe) (Microdata/JSON-LD) into Python dictionaries. This is an open source library that allows others to use this to build software from this tool.  I programmed the software and maintain the repository.
 
 ### [pyproj](https://github.com/pyproj4/pyproj)
 * 2016 to 2019
 * Python library for cartographic projection and spatial transformation.  Cython is used as a wrapper for the C library PROJ.
-* I provided support for end users(programmers), wrote documentation, contributed fixes, wrote unit tests, reviewed user contributions, and merged contributions.
+* Provided support for end users (programmers), wrote documentation, contributed fixes, wrote unit tests, reviewed user contributions, and merged contributions.
 
 ### [GIS Maps](/projects/gismaps/)
 <a href="/projects/gismaps/"><img src="/images/resume/trail_map-250px.webp" class="resume-prj-img"></a>
@@ -167,18 +169,18 @@ I am an MS student of Computer Science at the University of Alabama at Birmingha
 
 ## Select Coursework
 
-* [CS 520](/tags/CS520/) – Software Engineering
+* [CS 520 – Software Engineering](/tags/CS520/)
 * CS 532 – Systems Programming
-* [CS 621](/tags/CS621/) – Advance Web Application Development
+* [CS 621 – Advance Web Application Development](/tags/CS621/)
 * CS 633 – Cloud Computing
 * CS 652 – Advanced Algorithms and Data Structures
-* [CS 662](/tags/CS662/) – Natural Language Processing
+* [CS 662 – Natural Language Processing](/tags/CS662/)
 
 Class descriptions are in the [UAB course catalog](http://catalog.uab.edu/graduate/collegeofartsciences/computerscience/#courseinventory).
 
 
 ## General Skills
-* maintaining and creating website content
+* Creating and maintaining website content.
 * phone and email customer service for the general public and internal employees
 * designing maps, posters, pamphlets, and forms for use by internal and external audiences and the general public
 * procuring services through an RFI/RFP process
@@ -195,7 +197,7 @@ Class descriptions are in the [UAB course catalog](http://catalog.uab.edu/gradua
 * Athens Pride Coalition
     - Co-Founder, 2016–Mar. 2020
     - Mentor for youth (ages 14-18) support group for gender and sexual minorities 2018–Mar. 2020.
-    - I made home cooked meal for the youth and the support staff. I provided guidance for the youth.
+    - Made home cooked meal for the youth and the support staff. I provided guidance for the youth.
 
 * I enjoy riding bicycles, and training to eventually want to do long distance bikepacking.
 

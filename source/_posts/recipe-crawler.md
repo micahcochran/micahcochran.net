@@ -2,6 +2,7 @@
 title: recipe-crawler
 date: 2023-02-28 21:29:54
 tags: 
+    - BeautifulSoup
     - Python
     - CLI
 categories:

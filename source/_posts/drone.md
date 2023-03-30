@@ -8,16 +8,17 @@ tags:
     - git
     - unit testing
     - GUI
+    - MVC
 categories:
     - projects
 ---
 
-I lead a team of four to create a software that did agricultural drone scanning. The software simulated a flight on the screen and also flew a physical drone. My team explored the software development process starting with use cases, wireframes, drawing state charts, and implementation of the software in Java & JavaFX. This flew an actual drone. The project was for the CS 520 Software Engineering class.
+Led a team of four to create a software that did agricultural drone scanning. The software simulated a flight on the screen and also flew a physical drone. My team explored the software development process starting with use cases, wireframes, drawing state charts, and implementation of the software in Java & JavaFX. This flew an actual drone. The project was for the CS 520 Software Engineering class.
 
-Object Oriented design patterns Adapter, Singleton, and Visitor were implemented in this project. 
+Object Oriented design patterns Adapter, Singleton, and Visitor were implemented in this project. The project used a Model-View-Control (MVC) architecture.
 
 For all team member it was their first time using Java. For the rest of the team it was their first time using git.
-JUnit was used for unit testing to ensure that merge requests are not causing testable problems.
+JUnit was used for unit testing to ensure that merge requests did not causing testable problems.
 
 ![Agricultural Drone Farm Software Screenshot](/images/ag_drone_ly85.webp)
 
