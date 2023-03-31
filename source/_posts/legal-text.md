@@ -9,11 +9,13 @@ tags:
     - SQLite
     - BeautifulSoup
     - website
+    - Vagrant
+    - VM
 categories:
     - projects
 ---
 
-The task was to scrape the 1901 Constitution of Alabama, and build website that presents legal codes in a more usable website.  
+[The project](https://github.com/micahcochran/cs621-final-project) was to scrape the 1901 Constitution of Alabama, and build website that presents legal codes in a more usable website.
 
 
 ## State's Design
@@ -79,7 +81,7 @@ text.
 
 ## Notes
 
-The Frontend is HTML and a small amount of Javascript.  The backend is Flask library using Python.  The text of the Alabama Constitution is stored in MongoDB.  User credentials are stored in a SQLite database.
+The Frontend is HTML and a small amount of Javascript.  The backend is the Python Flask library.  The text of the Alabama Constitution is stored in MongoDB.  User credentials are stored in a SQLite database.  There are options to install in Vagrant on a Virtual Machine or bare metal.
 
 The scraper was custom Python code (using BeautifulSoup library).  It was written in a manner to allows legal codes scraping from other websites. These scraper would need some level of customization.
 
