@@ -20,7 +20,7 @@ Object Oriented design patterns Adapter, Singleton, and Visitor were implemented
 For all team member it was their first time using Java. For the rest of the team it was their first time using git.
 JUnit was used for unit testing to ensure that merge requests did not causing testable problems.
 
-![Agricultural Drone Farm Software Screenshot](/images/ag_drone_ly85.webp)
+![Agricultural Drone Farm Software Screenshot](/images/drone/ag_drone_ly85.webp)
 
 
 
@@ -36,3 +36,9 @@ Video of drone simulation scanning the farm (no audio):
     Download the <a href="/videos/ag_drone-scan_q70_vp9.webm">WEBM</a>
 </video>
 
+# Design Drawings
+
+<figure>
+    <img src="/images/drone/wireframe_ly85.webp">
+    <figcaption>Wireframe from the design process.</figcaption>
+</figure>

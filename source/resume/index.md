@@ -113,7 +113,7 @@ I am an MS student of Computer Science at the University of Alabama at Birmingha
 * Language: <a href="/tags/Python/" itemprop="knowsAbout">Python</a>, <span itemprop="knowsAbout">C</span>, [Java](/tags/Java/), <span itemprop="knowsAbout">JavaScript</span>, <span itemprop="knowsAbout">Racket</span>
 * Framework: <a href="/tags/Flask/" itemprop="knowsAbout">Flask</a>
 * Database: <a href="/tags/MongoDB/" itemprop="knowsAbout">MongoDB</a>
-* Tool: <span itemprop="knowsAbout">git</span> / [GitHub](https://github.com/micahcochran) / GitLab, Visual Studio Code, <span itemprop="knowsAbout">Docker</span>, <span itemprop="knowsAbout">Amazon Web Services</span>, <span itemprop="knowsAbout">pandoc</span>
+* Tool: <span itemprop="knowsAbout">git</span> / [GitHub](https://github.com/micahcochran) / GitLab, Visual Studio Code, <span itemprop="knowsAbout">Docker</span>, <span itemprop="knowsAbout">Amazon Web Services</span>, <span itemprop="knowsAbout">pandoc</span>, <a href="/tags/Vagrant/" itemprop="knowsAbout">Vagrant</a>
 * GIS Software: <span itemprop="knowsAbout">ArcGIS Desktop</span>, <span itemprop="knowsAbout">QGIS</span>
 
 
