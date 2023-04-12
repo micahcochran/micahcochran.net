@@ -25,7 +25,7 @@ Best viewed full screen.
 
 <br>
 
-**Notes:** A C1 zoning district is a Commercial 1 District.  R1 is Residential 1 Zoning District.  Typical zoning ordinances would allow restaurant in C districts, not R districts due to the intensity of the use. 
+**Notes:** A <abbr>C1</abbr> zoning district is a Commercial 1 District.  <abbr>R1</abbr> is a Residential 1 Zoning District.  Typical zoning ordinances would allow restaurant in C districts, not R districts due to the intensity of the use. 
 
 
 <br>
@@ -33,7 +33,7 @@ Best viewed full screen.
 ## Technology
 A Knowledge graph was created for Zoning Ordinance laws.  The knowledge graph was feed into software that generated question based on templates.  Those questions were used to train the model.  
 
-The software matches questions to the appropriate SPARQL templates and fill in slots of that template, run the SPARQL query against the Knowledge Graph to get the results. The software was programmed in Python.  SBERT (Sentence BERT) was used to determine similarity of words/phrases, so to similar terms like "quary" and "mining" receive a high score (0.4751) and to unrelated terms like "fish" and "outer space" receive a lower score (0.2087).   XGBoost and scikit-learn are machine learning libraries used to match question text to the SPARQL template and determine the relation slot.  The Knowledge Graph was stored in Turtle RDF and SPARQL was used to query the Knowledge Graph. This was a two person project for the final class project for CS 662 Natural Language Processing.  This software is an application of those methods.
+The software matches questions to the appropriate SPARQL templates and fill in slots of that template, run the SPARQL query against the Knowledge Graph to get the results. The software was programmed in Python.  <abbr>SBERT</abbr> (Sentence BERT) was used to determine (cosine) similarity of words/phrases. Passing similar terms like "quary" and "mining" receives a high score (0.4751), and passing unrelated terms like "fish" and "outer space" receives a lower score (0.2087).   XGBoost and scikit-learn are machine learning libraries used to match question text to the SPARQL template and determine the relation slot.  The Knowledge Graph was stored in Turtle RDF and SPARQL was used to query the Knowledge Graph. This was a two person project for the final class project for CS&nbsp;662 Natural Language Processing.  This software is an application of those methods.
 
 
 <figure>
@@ -44,9 +44,9 @@ The software matches questions to the appropriate SPARQL templates and fill in s
 
 Each of these steps shown in the diagram were replicated in the this software.
 
-The International Zoning Code (IZC) was used as the source material to create the Knowledge Graph. The International Zoning Code is a general Zoning Ordinance that does not contain amendments tailored to a specific jurisdiction. RDF triples had to be created to represent permitted uses and dimensional requirements in the Knowledge Graph.
+The International Zoning Code (<abbr>IZC</abbr>) was used as the source material to create the Knowledge Graph. The <abbr>IZC</abbr> is a general Zoning Ordinance that does not contain amendments tailored to a specific jurisdiction. <abbr title="Resource Description Framework">RDF</abbr> triples had to be created to represent permitted uses and dimensional requirements for a Knowledge Graph.
 
-This software could enable citizen exploration of Zoning laws without becoming a legal expert.  Also,the knowledge graphs provides a framework that could be used by professional who deal with multiple Zoning Ordinances to find answers through SPARQL queries (if this framework  were adopted by multiple local governments).
+This software could enable citizen exploration of Zoning laws without becoming a legal expert.  Also,the knowledge graphs provides a framework that could be used by professional who deal with multiple Zoning Ordinances to find answers through SPARQL queries (if this framework were adopted by multiple local governments).
 
 
 ## Poster

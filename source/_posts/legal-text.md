@@ -85,4 +85,4 @@ The Frontend is HTML and a small amount of Javascript.  The backend is the Pytho
 
 The scraper was custom Python code (using BeautifulSoup library).  It was written in a manner to allows legal codes scraping from other websites. These scraper would need some level of customization.
 
-Sole group member on the project for class CS 621 Advanced Web Application Development.
+Sole group member on the project for class CS&nbsp;621 Advanced Web Application Development.
