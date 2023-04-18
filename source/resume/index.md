@@ -81,7 +81,7 @@ I am an MS student of Computer Science at the University of Alabama at Birmingha
                     <span itemprop="name">City of Athens, Alabama</span>
                     <link itemprop="sameAs" href="https://www.athensalabama.us/">
                 </div> Engineering Services and Community Development Department.</li>
-            <li>Accomplishments: Migrated maps from paper to online interactive maps. Migrated applications from paper to PDFs. Moved site plan review to digital review and digital document signing. Served as liaison to FEMA during declared disasters in 2011 and 2014.
+            <li>Accomplishments: Migrated maps from paper to online interactive maps. Migrated applications from paper to PDFs. Moved site plan review to digital review and digital document signing. Served as liaison to <abbr title="Federal Emergency Management Agency">FEMA</abbr> during declared disasters in 2011 and 2014.
             </li>
             <li>Regular duties included approving plans based on city regulations and
             communicating with developers about regulations and maintaining Geospatial databases.</li>
@@ -116,7 +116,7 @@ I am an MS student of Computer Science at the University of Alabama at Birmingha
 * Language: <a href="/tags/Python/" itemprop="knowsAbout">Python</a>, <span itemprop="knowsAbout">C</span>, [Java](/tags/Java/), <span itemprop="knowsAbout">JavaScript</span>, <span itemprop="knowsAbout">Racket</span>
 * Technology: <a href="/tags/Flask/" itemprop="knowsAbout">Flask</a>, <abbr title="Resource Description Framework"><a href="/tags/RDF/" itemprop="knowsAbout">RDF</a></abbr>, <a href="/tags/SPARQL/" itemprop="knowsAbout">SPARQL</a>
 * Operating Systems: Linux (multiple distributions) / Windows
-* IDEs: Visual Studio Code, PyCharm (IntelliJ), Eclipse, Jupyter Notebook
+* <abbr title="Integrated Development Environments">IDEs</abbr>: Visual Studio Code, PyCharm (IntelliJ), Eclipse, Jupyter Notebook
 * Database: <a href="/tags/MongoDB/" itemprop="knowsAbout">MongoDB</a>, <a href="/tags/SQLite/" itemprop="knowsAbout">SQLite</a>
 * Tool: <span itemprop="knowsAbout">git</span> / [GitHub](https://github.com/micahcochran) / GitLab,<span itemprop="knowsAbout">Docker</span>, <span itemprop="knowsAbout">Amazon Web Services</span>, <span itemprop="knowsAbout">pandoc</span>, <a href="/tags/Vagrant/" itemprop="knowsAbout">Vagrant</a>
 * GIS Software: <span itemprop="knowsAbout">ESRI ArcGIS Desktop</span>, <span itemprop="knowsAbout">QGIS</span>
@@ -140,7 +140,7 @@ I am an MS student of Computer Science at the University of Alabama at Birmingha
 <a href="/projects/drone/"><img src="/images/resume/ag_drone-250px.webp" class="resume-prj-img"></a>
 
 * October 2021 to December 2021
-* Led a four person team to build a software that did agricultural drone scanning.  The software simulated a flight on the screen and also flew a physical drone.  My team explored the software development process with use cases, state charts, and implementing the software in [Java](/tags/Java/) and JavaFX.  This was the final project for the <a href="#Select-Coursework">CS&nbsp;520 Software Engineering class</a>.
+* Led a four person team to build a software that did agricultural drone scanning.  The software simulated a flight on the screen and also flew a physical drone.  The team explored the software development process with use cases, state charts, and implementing the software in [Java](/tags/Java/) and JavaFX.  <abbr title="Object-oriented programming">OOP</abbr> patterns were also incorporated into this project.  This was the final project for the [CS 520 Software Engineering class](#Select-Coursework).
 
 ### [recipe-crawler](/projects/recipe-crawler/)
 * June 2021 to present
@@ -149,14 +149,14 @@ I am an MS student of Computer Science at the University of Alabama at Birmingha
 
 ### request_builder.py
 * 2020 to August 2021
-* Command line software that generates agendas and notices using Word Document templates from applicant requests.  The requests were PDF applications.  The Python software used the PDF input to generates agendas and public notices filling in the templates.  Templates were tailored to City of Athens processes and messaging.
+* Command line software that generates agendas and notices using Word Document templates from applicant requests.  The requests were PDF applications.  The [Python](/tags/Python/) software used the PDF input to generates agendas and public notices filling in the templates.  Templates were tailored to City of Athens processes and messaging.
 * Programmer and user of software.
 
 ### [scrape-schema-recipe](/projects/recipe/)
 <a href="/projects/recipe/"><img src="/images/resume/ssr-dict-recipe-250px.webp" class="resume-prj-img"></a>
 
 * 2018 to present
-* Scrapes recipes from HTML [https://schema.org/Recipe](https://schema.org/Recipe) (Microdata/JSON-LD) into Python dictionaries. This is an open source library that allows others to use this to build software from this tool.  I programmed the software and maintain the repository.
+* Scrapes recipes from HTML [https://schema.org/Recipe](https://schema.org/Recipe) (Microdata/JSON-LD) into [Python](/tags/Python/) dictionaries. This is an open source library that allows others to use this to build software from this tool.  I programmed the software and maintain the repository.
 
 ### [pyproj](https://github.com/pyproj4/pyproj)
 * 2016 to 2019
@@ -235,7 +235,7 @@ I am an MS student of Computer Science at the University of Alabama at Birmingha
     - Mentor for youth (ages 14-18) support group for gender and sexual minorities 2018–Mar. 2020.
     - Made home cooked meal for the youth and the support staff. I provided guidance for the youth.
 
-* I enjoy riding bicycles, and training to eventually do long distance bikepacking.
+* Recently, I rediscovered my enjoyment of listening to Heavy Metal music.
 
 </article>
 
