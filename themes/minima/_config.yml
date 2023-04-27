@@ -12,6 +12,7 @@ desc: "... at the University of Alabama at Birmingham.  I have years of 16 years
 #menu
 menu:
   Resume: /resume
+  Projects: /resume/#Projects
 #  About: /About
 
 #index/main page max show posts (in number)

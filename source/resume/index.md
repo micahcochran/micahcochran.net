@@ -48,12 +48,12 @@ I am an MS student of Computer Science at the University of Alabama at Birmingha
 <ul>
     <h3 itemprop="jobTitle">Student Worker <abbr title="Information Technology">IT</abbr> Services</h3>
         <ul>
-            <li>September 2021 - present</li>
+            <li>September 2021 - April 2023</li>
             <li>
                 <div itemscope itemtype="https://schema.org/Organization">
-                    <span itemprop="name">University of Alabama at Birmingham Computer Science Department</span>
+                    <span itemprop="name">University of Alabama at Birmingham Computer Science Department</span>,
                     <link itemprop="sameAs" href="https://www.uab.edu/cas/computerscience/">
-                    </div>
+                    <span itemprop="location">Birmingham, AL</span></div>
             </li>
             <li>Duties: Setting up computers for graduate students. Updating software on lab computers.</li>
         </ul>
@@ -62,16 +62,16 @@ I am an MS student of Computer Science at the University of Alabama at Birmingha
             <li>September 2022 - December 2022</li>
             <li>
                 <div itemscope itemtype="https://schema.org/Organization">
-                    <span itemprop="name">University of Alabama at Birmingham Computer Science Department</span>
+                    <span itemprop="name">University of Alabama at Birmingham Computer Science Department</span>,
                     <link itemprop="sameAs" href="https://www.uab.edu/cas/computerscience/">
-                    </div>
+                    <span itemprop="location">Birmingham, AL</span></div>
             </li>
             <li>for the class CS&nbsp;221 Web Development</li>
         </ul>
     <h3 itemprop="jobTitle">Geospatial Services Contractor</h3>
         <ul>
             <li>August 2021 - May 2022</li>
-            <li>Redraw voting districts based on 2020 Census.</li>
+            <li>Redrew voting districts based on 2020 Census.</li>
         </ul>
     <h3 itemprop="jobTitle">GIS (Geographic Information Systems) Administrator/Coordinator</h3> 
         <ul>
@@ -86,7 +86,7 @@ I am an MS student of Computer Science at the University of Alabama at Birmingha
             <li>Regular duties included approving plans based on city regulations and
             communicating with developers about regulations and maintaining Geospatial databases.</li>
             <li> Led a multi-department/agency Consortium contracting three countywide aerial photography flights.</li>
-            <li><a href="/projects/gismaps/">GIS Map Portfolio</a></li>
+            <li>See <a href="/projects/gismaps/">GIS Map Portfolio</a> for map examples.</li>
         </ul>
     </li>
 </ul>
@@ -97,15 +97,15 @@ I am an MS student of Computer Science at the University of Alabama at Birmingha
 <section>
     <ul>
     <li><div itemprop="alumniOf" itemscope itemtype="https://schema.org/CollegeOrUniversity">
-            <span itemprop="name">University of Alabama at Birmingham</span>
-            in <span itemprop="location">Birmingham, Alabama</span>
+            <b itemprop="name">University of Alabama at Birmingham</b>,
+            <span itemprop="location">Birmingham, AL</span>
             <link itemprop="sameAs" href="https://www.uab.edu/"></div> 
-            <b>Pursuing a Masters of Science in Computer Science</b> - Anticipated Graduation: April 2023</li>
+            <b>Pursuing a M.S. in Computer Science</b> - Anticipated Graduation: April 2023 - GPA: 4.0</li>
     <li><div itemprop="alumniOf" itemscope itemtype="https://schema.org/CollegeOrUniversity">
-            <span itemprop="name">University of North Alabama</span>
-            in <span itemprop="location">Florence, Alabama</span>
+            <b itemprop="name">University of North Alabama</b>,
+            <span itemprop="location">Florence, AL</span>
             <link itemprop="sameAs" href="https://www.una.edu/"></div> 
-            <b>BA Geography</b>, Computer Science Minor - 2004</li>
+            <b>B.A. Geography</b>, Computer Science Minor - 2004</li>
     <li><b>Certificate in Geographic Information Systems</b> from the University of North Alabama - 2004</li>
     </ul>
 </section>
@@ -113,12 +113,12 @@ I am an MS student of Computer Science at the University of Alabama at Birmingha
 
 ## Technical Skills
 
-* Language: <a href="/tags/Python/" itemprop="knowsAbout">Python</a>, <span itemprop="knowsAbout">C</span>, [Java](/tags/Java/), <span itemprop="knowsAbout">JavaScript</span>, <span itemprop="knowsAbout">Racket</span>
-* Technology: <a href="/tags/Flask/" itemprop="knowsAbout">Flask</a>, <abbr title="Resource Description Framework"><a href="/tags/RDF/" itemprop="knowsAbout">RDF</a></abbr>, <a href="/tags/SPARQL/" itemprop="knowsAbout">SPARQL</a>
+* Language: <a href="/tags/Python/" itemprop="knowsAbout">Python</a>, <span itemprop="knowsAbout">C</span>, [Java](/tags/Java/), Shell \[<span itemprop="knowsAbout">bash</span>|<span itemprop="knowsAbout">fish</span>\], <span itemprop="knowsAbout">JavaScript</span>, <span itemprop="knowsAbout">Racket</span>
+* Technology: <a href="/tags/Flask/" itemprop="knowsAbout">Flask</a>, <abbr title="Resource Description Framework"><a href="/tags/RDF/" itemprop="knowsAbout">RDF</a></abbr>, <a href="/tags/SPARQL/" itemprop="knowsAbout">SPARQL</a>, <abbr title="Structured Query Language" itemprop="knowsAbout">SQL</abbr>, <abbr title="Natural Language Processing" itemprop="knowsAbout">NLP</abbr>
 * Operating Systems: Linux (multiple distributions) / Windows
 * <abbr title="Integrated Development Environments">IDEs</abbr>: Visual Studio Code, PyCharm (IntelliJ), Eclipse, Jupyter Notebook
 * Database: <a href="/tags/MongoDB/" itemprop="knowsAbout">MongoDB</a>, <a href="/tags/SQLite/" itemprop="knowsAbout">SQLite</a>
-* Tool: <span itemprop="knowsAbout">git</span> / [GitHub](https://github.com/micahcochran) / GitLab,<span itemprop="knowsAbout">Docker</span>, <span itemprop="knowsAbout">Amazon Web Services</span>, <span itemprop="knowsAbout">pandoc</span>, <a href="/tags/Vagrant/" itemprop="knowsAbout">Vagrant</a>
+* Tool: <span itemprop="knowsAbout">git</span> / [GitHub](https://github.com/micahcochran) / GitLab, <span itemprop="knowsAbout">Docker</span>, <span itemprop="knowsAbout">Amazon Web Services</span>, <span itemprop="knowsAbout">pandoc</span>, <a href="/tags/Vagrant/" itemprop="knowsAbout">Vagrant</a>
 * GIS Software: <span itemprop="knowsAbout">ESRI ArcGIS Desktop</span>, <span itemprop="knowsAbout">QGIS</span>
 
 
@@ -126,7 +126,7 @@ I am an MS student of Computer Science at the University of Alabama at Birmingha
 
 ### [Zoning Ordinance Question Answering](/projects/zoning-qa/)		
 * October to December 2022
-* Team project to create a system that answers natural language questions about Zoning Ordinance laws.  The Question Answering System created SPARQL queries based on the question and executed those queries on a Knowledge Graph to get an answer.  A Knowledge graph was created for Zoning Ordinance laws.
+* Team project to create a system that answers natural language (<abbr title="Natural Language Processing">NLP</abbr>) questions about Zoning Ordinance laws.  The Question Answering System created SPARQL queries based on the question and executed those queries on a Knowledge Graph to get an answer.  A Knowledge graph was created for Zoning Ordinance laws.
 
 ### [Legal Text Website](/projects/legal-text/)
 
