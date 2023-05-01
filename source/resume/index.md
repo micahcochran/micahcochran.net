@@ -164,9 +164,9 @@ I am an MS student of Computer Science at the University of Alabama at Birmingha
 * Provided support for end users (programmers), wrote documentation, contributed fixes, wrote unit tests, reviewed user contributions, and merged contributions.
 
 
-### municipal_limits_geoprocess.py
+### [combined_municipal_limits_geoprocessing](/projects/limits/)
 * 2014 to 2016
-* An extract transform load (<abbr>ETL</abbr>) Python script for City limit Geographic Information Systems (<abbr>GIS</abbr>) data from four (4) different sources.  The data had two (2) different projections and four (4) schemas.  The script was to create one layer with one projection and [one schema](/pdfs/gis_municipal_boundary_schema.pdf).  Replaced a GeoKettle ETL script with a less proprietary system.  This script lead to making open source contributions to geospatial libraries in this period of time, namely [pyproj](#pyproj) (above).  Learned about the utility of Python virtual environments the hard way.
+* A Python <abbr title="Extract Transform Load">ETL</abbr> script to combine <abbr title="Geographic Information Systems">GIS</abbr> data of municipal limits from four (4) different sources.  The data had two (2) projections and four (4) schemas.  The script was to create one layer with one projection and [one schema](/pdfs/gis_municipal_boundary_schema.pdf).  The result was a single layer of municipal limits that covered Limestone County, AL.
 * Programmer and user.
 
 ### [GIS Maps](/projects/gismaps/)
