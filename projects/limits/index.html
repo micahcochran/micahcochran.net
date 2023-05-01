@@ -11,11 +11,11 @@
   <meta charset="utf-8">
 
   
-  <title>All Posts - Micah D. Cochran</title>
+  <title>combined_municipal_limits_geoprocessing</title>
   
-  <link rel="canonical" href="https://www.micahcochran.net/archives/2023/">
+  <link rel="canonical" href="https://www.micahcochran.net/projects/limits/">
   
-  <meta name="description" content="">
+  <meta name="description" content="combined_municipal_limits_geoprocessing is a Python command line ETL script that combines City Limits from multiple GIS layers into one GIS layer usin">
   
   
   <meta name="keywords" content="resume">
@@ -23,28 +23,24 @@
   <meta name="author" content="Micah D. Cochran">
   
   
-  <meta property="og:image" content="https://www.micahcochran.net/images/thumbnail.jpg">
-  
   
   <meta property="og:site_name" content="Micah D. Cochran" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="All Posts - Micah D. Cochran" />
+  <meta property="og:title" content="combined_municipal_limits_geoprocessing" />
   
-  <meta property="og:description" content="">
+  <meta property="og:description" content="combined_municipal_limits_geoprocessing is a Python command line ETL script that combines City Limits from multiple GIS layers into one GIS layer usin">
   
-  <meta property="og:url" content="https://www.micahcochran.net/archives/2023/" />
+  <meta property="og:url" content="https://www.micahcochran.net/projects/limits/" />
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="All Posts - Micah D. Cochran">
+  <meta name="twitter:title" content="combined_municipal_limits_geoprocessing">
   
-  <meta name="twitter:description" content="">
-  
-  
-  
-  <meta name="twitter:image" content="https://www.micahcochran.net/images/thumbnail.jpg">
+  <meta name="twitter:description" content="combined_municipal_limits_geoprocessing is a Python command line ETL script that combines City Limits from multiple GIS layers into one GIS layer usin">
   
   
-  <meta name="twitter:url" content="https://www.micahcochran.net/archives/2023/" />
+  
+  
+  <meta name="twitter:url" content="https://www.micahcochran.net/projects/limits/" />
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -205,128 +201,47 @@
 </div>
 
         <div class="trans">
-          
-<h2>All Posts</h2>
+            <h2>combined_municipal_limits_geoprocessing</h2>
+
+  <p><a target="_blank" rel="noopener" href="https://github.com/micahcochran/combined_municipal_limits_geoprocessing">combined_municipal_limits_geoprocessing</a> is a Python command line <abbr title="Extract Tranform Load">ETL</abbr> script that combines City Limits from multiple <abbr title="Geographic Information Systems">GIS</abbr> layers into one <abbr>GIS</abbr> layer using a unified schema for Limestone County (Alabama, USA). This takes five (5) files, with four (4) different schema and two (2) projections. The script merges the files are merged into one layer with one projection and one schema.</p>
+<h2 id="Source-Data"><a href="#Source-Data" class="headerlink" title="Source Data"></a>Source Data</h2><p><abbr>GIS</abbr> data from different sources has attribute tables that can vary widely:</p>
+<figure>
+    <img src="/images/limits/dec_table.webp">
+    <figcaption>Attribute table from Decatur City Limits.</figcaption>
+</figure>
+
+<figure>
+    <img src="/images/limits/hsv_table.webp">
+    <figcaption>Attribute table from Huntsville City Limits.</figcaption>
+</figure>
+
+<figure>
+    <img src="/images/limits/mad_table.webp">
+    <figcaption>Attribute table from Madison City Limits.</figcaption>
+</figure>
+
+<p>Here are the 5 different <abbr>GIS</abbr> layer as viewed <abbr>GIS</abbr> window:</p>
+<figure>
+    <img src="/images/limits/5mun_limit_layers.webp">
+    <figcaption>The 5 input GIS layers shown in QGIS software.  Note: QGIS has the ability to reproject data automatically.  There are two different <abbr title="Coordinate Reference System">CRS</abbr> with Alabama State Plane East and Alabama State Plane West.</figcaption>
+</figure>
+
+<h2 id="Result-Data"><a href="#Result-Data" class="headerlink" title="Result Data"></a>Result Data</h2><p>The resulting <abbr>GIS</abbr> data of the <abbr>ETL</abbr> script.</p>
+<figure>
+    <img src="/images/limits/table_combined.webp">
+    <figcaption>Combined table.</figcaption>
+</figure>
+
+<figure>
+    <img src="/images/limits/result_layer.webp">
+    <figcaption>Single <abbr>GIS</abbr> layer of all of the municipal limits from QGIS map.  The layers have had labels from the <code>NAME</code> column.</figcaption>
+</figure>
 
 
-    <article>
-      <div class="row">
+<h2 id="Leasons-Learned"><a href="#Leasons-Learned" class="headerlink" title="Leasons Learned"></a>Leasons Learned</h2><p>I learned the hard way that Python virtual environment are a great way to keep an the <abbr>API</abbr> stable, so that the code will most likely still work later.  Updates may have the unintended consequence of changing the <abbr>API</abbr>, for better or worse.  Python virtual environments allow the developer to upgrade when the developer is ready to upgrade.  Not when software in the rest of the environment has been upgraded. </p>
 
-        <div class="three columns left lit">
-          <p class="bottom">May 1, 2023</p>
-        </div>
-        <div class="nine columns left mb-3">
-          <a href="/projects/limits/" class="">
-            
-              combined_municipal_limits_geoprocessing
-            
-          </a>
-        </div>
-      </div>
-    </article>
-
-    <article>
-      <div class="row">
-
-        <div class="three columns left lit">
-          <p class="bottom">Mar 1, 2023</p>
-        </div>
-        <div class="nine columns left mb-3">
-          <a href="/projects/zoning-qa/" class="">
-            
-              Zoning Ordinance Question Answering
-            
-          </a>
-        </div>
-      </div>
-    </article>
-
-    <article>
-      <div class="row">
-
-        <div class="three columns left lit">
-          <p class="bottom">Feb 28, 2023</p>
-        </div>
-        <div class="nine columns left mb-3">
-          <a href="/projects/recipe-crawler/" class="">
-            
-              recipe-crawler
-            
-          </a>
-        </div>
-      </div>
-    </article>
-
-    <article>
-      <div class="row">
-
-        <div class="three columns left lit">
-          <p class="bottom">Feb 28, 2023</p>
-        </div>
-        <div class="nine columns left mb-3">
-          <a href="/projects/website-tools/" class="">
-            
-              Website Tools
-            
-          </a>
-        </div>
-      </div>
-    </article>
-
-    <article>
-      <div class="row">
-
-        <div class="three columns left lit">
-          <p class="bottom">Feb 12, 2023</p>
-        </div>
-        <div class="nine columns left mb-3">
-          <a href="/projects/legal-text/" class="">
-            
-              Legal Text Website
-            
-          </a>
-        </div>
-      </div>
-    </article>
-
-    <article>
-      <div class="row">
-
-        <div class="three columns left lit">
-          <p class="bottom">Feb 12, 2023</p>
-        </div>
-        <div class="nine columns left mb-3">
-          <a href="/projects/drone/" class="">
-            
-              Agricultural Drone Dashboard
-            
-          </a>
-        </div>
-      </div>
-    </article>
-
-    <article>
-      <div class="row">
-
-        <div class="three columns left lit">
-          <p class="bottom">Feb 11, 2023</p>
-        </div>
-        <div class="nine columns left mb-3">
-          <a href="/projects/gismaps/" class="">
-            
-              GIS Maps
-            
-          </a>
-        </div>
-      </div>
-    </article>
-
-<div class="pagination-bar">
-  <ul class="pagination">
-    
-    
-  </ul>
-</div>
+  <p><a class="classtest-link" href="/tags/ETL/" rel="tag">ETL</a>, <a class="classtest-link" href="/tags/GIS/" rel="tag">GIS</a>, <a class="classtest-link" href="/tags/Python/" rel="tag">Python</a>, <a class="classtest-link" href="/tags/geoprocessing/" rel="tag">geoprocessing</a> — May 1, 2023</p>
+  
 
 
         </div>
