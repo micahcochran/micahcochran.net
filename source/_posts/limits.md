@@ -13,6 +13,8 @@ date: 2023-05-01 15:26:12
 
 [combined_municipal_limits_geoprocessing](https://github.com/micahcochran/combined_municipal_limits_geoprocessing) is a Python command line <abbr title="Extract Tranform Load">ETL</abbr> script that combines City Limits from multiple <abbr title="Geographic Information Systems">GIS</abbr> layers into one <abbr>GIS</abbr> layer using a unified schema for Limestone County (Alabama, USA). This takes five (5) files, with four (4) different schema and two (2) projections. The script merges the files are merged into one layer with one projection and one schema.
 
+The script makes the process of updating the combined <abbr>GIS</abbr> layer fast, easy, and less error prone.
+
 ## Source Data
 
 <abbr>GIS</abbr> data from different sources has attribute tables that can vary widely:
@@ -52,6 +54,6 @@ The resulting <abbr>GIS</abbr> data of the <abbr>ETL</abbr> script.
 </figure>
 
 
-## Leasons Learned
+## Lessons Learned
 
 I learned the hard way that Python virtual environment are a great way to keep an the <abbr>API</abbr> stable, so that the code will most likely still work later.  Updates may have the unintended consequence of changing the <abbr>API</abbr>, for better or worse.  Python virtual environments allow the developer to upgrade when the developer is ready to upgrade.  Not when software in the rest of the environment has been upgraded. 
