@@ -51,8 +51,7 @@ I am software development professional available for hire.  I have 16 years expe
             <li>September 2021 - April 2023</li>
             <li>
                 <div itemscope itemtype="https://schema.org/Organization">
-                    <span itemprop="name">University of Alabama at Birmingham Computer Science Department</span>,
-                    <link itemprop="sameAs" href="https://www.uab.edu/cas/computerscience/">
+                    <span itemprop="name">University of Alabama at Birmingham, <a itemprop="sameAs" href="https://www.uab.edu/cas/computerscience/">Computer Science Department</a></span>,
                     <span itemprop="location">Birmingham, AL</span></div>
             </li>
             <li>Duties: Setting up computers for graduate students. Updating software on lab computers.</li>
@@ -62,11 +61,11 @@ I am software development professional available for hire.  I have 16 years expe
             <li>September 2022 - December 2022</li>
             <li>
                 <div itemscope itemtype="https://schema.org/Organization">
-                    <span itemprop="name">University of Alabama at Birmingham Computer Science Department</span>,
+                    <span itemprop="name">University of Alabama at Birmingham, Computer Science Department</span>,
                     <link itemprop="sameAs" href="https://www.uab.edu/cas/computerscience/">
                     <span itemprop="location">Birmingham, AL</span></div>
             </li>
-            <li>for the class CS&nbsp;221 Web Development</li>
+            <li>For the class CS&nbsp;221 Web Development, covered topics HTML5, CSS, and JavaScript.  Held labs and office hours to help students with assignments. Graded student assignments. Coordinated with the professor.</li>
         </ul>
     <h3 itemprop="jobTitle">Geospatial Services Contractor</h3>
         <ul>
@@ -160,7 +159,7 @@ I am software development professional available for hire.  I have 16 years expe
 
 ### [pyproj](https://github.com/pyproj4/pyproj)
 * 2016 to 2019
-* Python library for cartographic projection and spatial transformation.  Cython is used as a wrapper for the C library PROJ.
+* Python library for cartographic projection and spatial transformation.  It is a wrapper for PROJ C library using Cython to interface between the C library and the Python. At that point, the project was maintaining a single codebase that would work on Python 2.7 and 3.x.
 * Provided support for end users (programmers), wrote documentation, contributed fixes, wrote unit tests, reviewed user contributions, and merged contributions.
 
 
