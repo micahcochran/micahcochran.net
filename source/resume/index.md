@@ -236,6 +236,9 @@ I am software development professional available for hire.  I have 16 years expe
 
 * Recently, I rediscovered my enjoyment of listening to Heavy Metal music.
 
+## Contact Information QR Code
+![](/images/resume/contact_qr_path.svg)
+
 </article>
 
 <script>

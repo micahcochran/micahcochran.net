@@ -13,7 +13,7 @@ categories:
     - projects
 ---
 
-Led a team of four to create a software that did agricultural drone scanning. The software simulated a flight on the screen and also flew a physical drone. My team explored the software development process starting with use cases, wireframes, drawing state charts, and implementation of the software in Java & JavaFX. This flew an actual drone. The project was for the CS&nbsp;520 Software Engineering class.
+<p>Led a team of four to create a software that did agricultural drone scanning. The software simulated a flight on the screen and also flew a physical drone. My team explored the software development process starting with use cases, wireframes, drawing state charts, and implementation of the software in Java & JavaFX. This flew an actual drone. The project was for the CS&nbsp;520 Software Engineering class.</p>
 
 Object Oriented design patterns Adapter, Singleton, and Visitor were implemented in this project. The project used a Model-View-Control (<abbr>MVC</abbr>) architecture.
 
@@ -24,13 +24,13 @@ JUnit was used for unit testing to ensure that merge requests did not causing te
 
 
 
-Video (no audio) of moving the object (a sheep), drone simulation visiting an object, changing its price, deleting the object:
+Video (without audio) of the following actions: change location (a sheep), drone simulation visiting an object, change price, delete the object:
 <video controls width="620">
     <source src="/videos/ag_drone-visit_change_delete_q47_vp9.webm" type="video/webm" codecs="vp9">
     Download the <a href="/videos/ag_drone-visit_change_delete_q47_vp9.webm">WEBM</a>
 </video>
 
-Video of drone simulation scanning the farm (no audio):
+Video of drone simulation scanning the farm (without audio):
 <video controls  width="620">
     <source src="/videos/ag_drone-scan_q70_vp9.webm" type="video/webm" codecs="vp9">
     Download the <a href="/videos/ag_drone-scan_q70_vp9.webm">WEBM</a>
