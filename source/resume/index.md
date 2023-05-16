@@ -54,7 +54,7 @@ I am software development professional available for hire.  I have 16 years expe
                     <span itemprop="name">University of Alabama at Birmingham, <a itemprop="sameAs" href="https://www.uab.edu/cas/computerscience/">Computer Science Department</a></span>,
                     <span itemprop="location">Birmingham, AL</span></div>
             </li>
-            <li>Duties: Setting up computers for graduate students. Updating software on lab computers.</li>
+            <li>Duties: Installed and updated software on lab computers. Set up lab computers for PhD students.  Took inventory of computers and phones.  Created diagrams and publications. Performed basic computer diagnostics.</li>
         </ul>
     <h3 itemprop="jobTitle">Teaching Assistant</h3>
         <ul>
@@ -80,7 +80,7 @@ I am software development professional available for hire.  I have 16 years expe
                     <span itemprop="name">City of Athens, Alabama</span>
                     <link itemprop="sameAs" href="https://www.athensalabama.us/">
                 </div> Engineering Services and Community Development Department.</li>
-            <li>Accomplishments: Migrated many maps from paper to online interactive maps.  Programmed a Python script that automated routine GIS data requests reducing the processing time by 1 hour; a script that created a combined municipal limits layer from multiple GIS source; and software which would use PDF applications to create agendas and notices.  Migrated applications from paper to electronic PDFs. Moved site plan review to digital review and moved to digital document signing. Served a City liaison to <abbr title="Federal Emergency Management Agency">FEMA</abbr> during declared disasters in 2011 and 2014. Contracted three aerial photography flights for a multi-department/agency Consortium.
+            <li>Accomplishments: Migrated many maps from paper to online interactive maps.  Programmed a Python script that automated routine GIS data requests reducing the processing time by 1 hour; a script that created a combined municipal limits layer from multiple GIS source; and software which would use PDF applications to create agendas and notices.  Migrated applications from paper to electronic PDFs. Moved site plan review to digital review and moved to digital document signing. Served as City liaison to <abbr title="Federal Emergency Management Agency">FEMA</abbr> during declared disasters in 2011 and 2014. Contracted three aerial photography flights for a multi-department/agency Consortium.
             </li>
             <li>Regular duties included approving plans based on city regulations and
             communicating with developers about regulations and maintaining Geospatial databases.</li>
