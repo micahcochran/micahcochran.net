@@ -132,7 +132,7 @@ I am software development professional available for hire.  I have 16 years expe
 <a href="/projects/legal-text/"><img src="/images/resume/legal_text-250px.webp" class="resume-prj-img"></a>
 
 * June to August 2022 
-* Scrape the Constitution of Alabama and create website that presents legal codes in a more usable website format.  Features of this website were display legal text, searching, section links, and a users registration system.  Technologies used in this project include: [Python](/tags/Python/), Flask, and MongoDB.
+* Scraped the Constitution of Alabama and created a website that presents legal codes in a more usable format.  Features of this website were display legal text, searching, section links, and a users registration system.  Technologies used in this project include: [Python](/tags/Python/): Flask, and MongoDB.
 
 ### [Agricultural Drone Dashboard](/projects/drone/)
 
@@ -148,7 +148,7 @@ I am software development professional available for hire.  I have 16 years expe
 
 ### request_builder.py
 * 2020 to August 2021
-* Command line software that generates agendas and notices using Word Document templates from applicant requests.  The requests were PDF applications.  The [Python](/tags/Python/) software used the PDF input to generates agendas and public notices filling in the templates.  Templates were tailored to City of Athens processes and messaging.
+* Command line software that generates agendas and notices using Word Document templates from applicant requests (PDF files).  The [Python](/tags/Python/) software used the PDF form data to fill templates of agendas and public notices.  Templates were tailored to City of Athens processes and messaging.
 * Programmer and user of software.
 
 ### [scrape-schema-recipe](/projects/recipe/)
@@ -165,7 +165,7 @@ I am software development professional available for hire.  I have 16 years expe
 
 ### [combined_municipal_limits_geoprocessing](/projects/limits/)
 * 2014 to 2016
-* A Python <abbr title="Extract Transform Load">ETL</abbr> script to combine <abbr title="Geographic Information Systems">GIS</abbr> data of municipal limits from four (4) different sources.  The data had two (2) projections and four (4) schemas.  The script was to create one layer with one projection and [one schema](/pdfs/gis_municipal_boundary_schema.pdf).  The result was a single layer of municipal limits that covered Limestone County, AL.
+* A Python <abbr title="Extract Transform Load">ETL</abbr> script to combine <abbr title="Geographic Information Systems">GIS</abbr> municipal limit data from four (4) different sources.  The data had two (2) projections and four (4) schemas.  The script was to create one layer with one projection and [one schema](/pdfs/gis_municipal_boundary_schema.pdf).  The result was a single layer of municipal limits that covered Limestone County, AL.
 * Programmer and user.
 
 ### [GIS Maps](/projects/gismaps/)
