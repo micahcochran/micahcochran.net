@@ -33,7 +33,8 @@ theme: minima
     <span itemprop="postalCode">35146</span><br>
 </address>
 <img data-feather="mail" alt="Email"><a href="mailto:mdcochra@uab.edu" itemprop="email"> mdcochra@uab.edu</a><br>
-<img data-feather="github"><a href="https://github.com/micahcochran"> GitHub: micahcochran</a><br>
+<img data-feather="github"><a href="https://github.com/micahcochran"> micahcochran</a><br>
+<img data-feather="linkedin"><a href="https://www.linkedin.com/in/micahcochran/"> in/micahcochran</a><br>
 <img data-feather="phone" alt="Phone"><a itemprop="telephone" href="tel:+12563942304"> 256-394-2304</a><br>
 <br>
 
@@ -113,7 +114,7 @@ I am software development professional available for hire.  I have 16 years expe
 ## Technical Skills
 
 * Language: <a href="/tags/Python/" itemprop="knowsAbout">Python</a>, <span itemprop="knowsAbout">C</span>, [Java](/tags/Java/), Shell \[<span itemprop="knowsAbout">bash</span>|<span itemprop="knowsAbout">fish</span>\], <span itemprop="knowsAbout">JavaScript</span>, <span itemprop="knowsAbout">Racket</span>
-* Technology: <a href="/tags/Flask/" itemprop="knowsAbout">Flask</a>, <abbr title="Message Passing Interface" itemprop="knowsAbout">MPI</abbr>, <span itemprop="knowsAbout">OpenMP</span>, <abbr title="Resource Description Framework"><a href="/tags/RDF/" itemprop="knowsAbout">RDF</a></abbr>, <a href="/tags/SPARQL/" itemprop="knowsAbout">SPARQL</a>, <abbr title="Structured Query Language" itemprop="knowsAbout">SQL</abbr>, <abbr title="Natural Language Processing" itemprop="knowsAbout">NLP</abbr>
+* Technology: <a href="/tags/Flask/" itemprop="knowsAbout">Flask</a>, <abbr title="Message Passing Interface" itemprop="knowsAbout">MPI</abbr>, <span itemprop="knowsAbout">OpenMP</span>, <abbr title="Resource Description Framework"><a href="/tags/RDF/" itemprop="knowsAbout">RDF</a></abbr>, <a href="/tags/SPARQL/" itemprop="knowsAbout">SPARQL</a>, <abbr title="Structured Query Language" itemprop="knowsAbout">SQL</abbr>
 * Operating Systems: Linux (multiple distributions) / Windows
 * <abbr title="Integrated Development Environments">IDEs</abbr>: <span itemprop="knowsAbout">Visual Studio Code</span>, <span itemprop="knowsAbout">PyCharm</span>, <span itemprop="knowsAbout">Eclipse</span>, <span itemprop="knowsAbout">Jupyter Notebook</span>
 * Database: <a href="/tags/MongoDB/" itemprop="knowsAbout">MongoDB</a>, <a href="/tags/SQLite/" itemprop="knowsAbout">SQLite</a>
@@ -123,16 +124,18 @@ I am software development professional available for hire.  I have 16 years expe
 
 ## Projects
 
-### [Zoning Ordinance Question Answering](/projects/zoning-qa/)		
-* October to December 2022
-* Team project to create a Knowledge Graph Question Answering System.  The software answered natural language questions about Zoning Ordinance laws. The Question Answering System recognized the question matched it to a template, found key words, and filled the key words into slots in the SPARQL query. The queries were executed on a Knowledge Graph for a Zoning Ordinance—created for this project—to obtain the answer.  The class project was for CS&nbsp;662 Natural Language Processing.
+### [Zoning Ordinance Question Answering](/projects/zoning-qa/)
+<ul>
+    <li>October to December 2022</li>
+    <li>Team project to create a Knowledge Graph Question Answering System.  The software answered natural language questions about Zoning Ordinance laws. The Question Answering System recognized the question matched it to a template, found key words, and filled the key words into slots in the SPARQL query. The queries were executed on a Zoning Ordinance Knowledge Graph to obtain the answer.  The class project was for CS&nbsp;662 Natural Language Processing.</li>
+</ul>
 
 ### [Legal Text Website](/projects/legal-text/)
 
 <a href="/projects/legal-text/"><img src="/images/resume/legal_text-250px.webp" class="resume-prj-img"></a>
 
 * June to August 2022
-* Presented legal codes in a more usable website. Scraped the Constitution of Alabama to use it for this project with BeautifulSoup.  Features of this website were display legal text, searching, section links, and a users registration system.  Technologies used in this project include: [Python](/tags/Python/), [Flask](/tags/Flask/), and [MongoDB](/tags/MongoDB/).
+* Present legal codes in a more usable website. Scraped the Constitution of Alabama using the BeautifulSoup library.  Features of this website were displaying legal text, searching, section links, and a user registration system.  Technologies used in this project include: [Python](/tags/Python/), [Flask](/tags/Flask/), and [MongoDB](/tags/MongoDB/).
 
 ### [Agricultural Drone Dashboard](/projects/drone/)
 
@@ -230,9 +233,11 @@ I am software development professional available for hire.  I have 16 years expe
 
 ## Other Activities
 * Athens Pride Coalition
-    - Co-Founder, 2016–Mar. 2020
-    - Mentor for youth (ages 14-18) support group for gender and sexual minorities 2018–Mar. 2020.
-    - Made home cooked meal for the youth and the support staff. I provided guidance for the youth.
+    * **Co-Founder** (2016–Mar. 2020) and
+        * Set up organizational structure. Held adult socials. Promoted group.  
+    * **Mentor** (2018–Mar. 2020)
+        * Served as a mentor for a youth support group (14-18 years old) of gender and sexual minorities from diverse backgrounds in Athens, Alabama.
+        * Prepared home cooked meal for the youth and the support staff.
 
 * Recently, I rediscovered my enjoyment of listening to Heavy Metal music.
 
@@ -242,5 +247,6 @@ I am software development professional available for hire.  I have 16 years expe
 </article>
 
 <script>
+    <!-- adds feather icons -->
   feather.replace()
 </script>
