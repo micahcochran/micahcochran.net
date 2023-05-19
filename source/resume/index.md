@@ -72,7 +72,7 @@ I am software development professional available for hire.  I have 16 years expe
             <li>August 2021 - May 2022</li>
             <li>Redrew voting districts based on 2020 Census.</li>
         </ul>
-    <h3 itemprop="jobTitle">GIS (Geographic Information Systems) Administrator/Coordinator</h3> 
+    <h3 itemprop="jobTitle"><abbr title="Geographic Information Systems">GIS</abbr> Administrator/Coordinator</h3> 
         <ul>
             <li>February 2005 - August 2021</li>
             <li>
@@ -80,7 +80,7 @@ I am software development professional available for hire.  I have 16 years expe
                     <span itemprop="name">City of Athens, Alabama</span>
                     <link itemprop="sameAs" href="https://www.athensalabama.us/">
                 </div> Engineering Services and Community Development Department.</li>
-            <li>Accomplishments: Migrated many maps from paper to online interactive maps.  Programmed a Python script that automated routine GIS data requests reducing the processing time by 1 hour; a script that created a combined municipal limits layer from multiple GIS source; and software which would use PDF applications to create agendas and notices.  Migrated applications from paper to electronic PDFs. Moved site plan review to digital review and moved to digital document signing. Served as City liaison to <abbr title="Federal Emergency Management Agency">FEMA</abbr> during declared disasters in 2011 and 2014. Contracted three aerial photography flights for a multi-department/agency Consortium.
+            <li>Accomplishments: Migrated many maps from paper to online interactive maps.  Programmed a Python script that automated routine <abbr title="Geographic Information Systems">GIS</abbr> data requests reducing the processing time by 1 hour; a script that created a combined municipal limits layer from multiple <abbr title="Geographic Information Systems">GIS</abbr> source; and software which would use PDF applications to create agendas and notices.  Migrated applications from paper to electronic PDFs. Moved site plan review to digital review and moved to digital document signing. Served as City liaison to <abbr title="Federal Emergency Management Agency">FEMA</abbr> during declared disasters in 2011 and 2014. Contracted three aerial photography flights for a multi-department/agency Consortium.
             </li>
             <li>Regular duties included approving plans based on city regulations and
             communicating with developers about regulations and maintaining Geospatial databases.</li>
@@ -99,7 +99,7 @@ I am software development professional available for hire.  I have 16 years expe
             <b itemprop="name">University of Alabama at Birmingham</b>,
             <span itemprop="location">Birmingham, AL</span>
             <link itemprop="sameAs" href="https://www.uab.edu/"></div> 
-            <b>Pursuing a M.S. in Computer Science</b> - Anticipated Graduation: April 2023 - GPA: 4.0</li>
+            <b>M.S. in Computer Science</b> - April 2023 - GPA: 4.0</li>
     <li><div itemprop="alumniOf" itemscope itemtype="https://schema.org/CollegeOrUniversity">
             <b itemprop="name">University of North Alabama</b>,
             <span itemprop="location">Florence, AL</span>
@@ -113,9 +113,9 @@ I am software development professional available for hire.  I have 16 years expe
 ## Technical Skills
 
 * Language: <a href="/tags/Python/" itemprop="knowsAbout">Python</a>, <span itemprop="knowsAbout">C</span>, [Java](/tags/Java/), Shell \[<span itemprop="knowsAbout">bash</span>|<span itemprop="knowsAbout">fish</span>\], <span itemprop="knowsAbout">JavaScript</span>, <span itemprop="knowsAbout">Racket</span>
-* Technology: <a href="/tags/Flask/" itemprop="knowsAbout">Flask</a>, <abbr title="Resource Description Framework"><a href="/tags/RDF/" itemprop="knowsAbout">RDF</a></abbr>, <a href="/tags/SPARQL/" itemprop="knowsAbout">SPARQL</a>, <abbr title="Structured Query Language" itemprop="knowsAbout">SQL</abbr>, <abbr title="Natural Language Processing" itemprop="knowsAbout">NLP</abbr>
+* Technology: <a href="/tags/Flask/" itemprop="knowsAbout">Flask</a>, <abbr title="Message Passing Interface" itemprop="knowsAbout">MPI</abbr>, <span itemprop="knowsAbout">OpenMP</span>, <abbr title="Resource Description Framework"><a href="/tags/RDF/" itemprop="knowsAbout">RDF</a></abbr>, <a href="/tags/SPARQL/" itemprop="knowsAbout">SPARQL</a>, <abbr title="Structured Query Language" itemprop="knowsAbout">SQL</abbr>, <abbr title="Natural Language Processing" itemprop="knowsAbout">NLP</abbr>
 * Operating Systems: Linux (multiple distributions) / Windows
-* <abbr title="Integrated Development Environments">IDEs</abbr>: Visual Studio Code, PyCharm (IntelliJ), Eclipse, Jupyter Notebook
+* <abbr title="Integrated Development Environments">IDEs</abbr>: <span itemprop="knowsAbout">Visual Studio Code</span>, <span itemprop="knowsAbout">PyCharm</span>, <span itemprop="knowsAbout">Eclipse</span>, <span itemprop="knowsAbout">Jupyter Notebook</span>
 * Database: <a href="/tags/MongoDB/" itemprop="knowsAbout">MongoDB</a>, <a href="/tags/SQLite/" itemprop="knowsAbout">SQLite</a>
 * Tool: <span itemprop="knowsAbout">git</span> / [GitHub](https://github.com/micahcochran) / GitLab, <span itemprop="knowsAbout">Docker</span>, <span itemprop="knowsAbout">Amazon Web Services</span>, <span itemprop="knowsAbout">pandoc</span>, <a href="/tags/Vagrant/" itemprop="knowsAbout">Vagrant</a>
 * GIS Software: <span itemprop="knowsAbout">ESRI ArcGIS Desktop</span>, <span itemprop="knowsAbout">QGIS</span>
@@ -125,21 +125,21 @@ I am software development professional available for hire.  I have 16 years expe
 
 ### [Zoning Ordinance Question Answering](/projects/zoning-qa/)		
 * October to December 2022
-* Team project to create a system that answers natural language (<abbr title="Natural Language Processing">NLP</abbr>) questions about Zoning Ordinance laws.  The Question Answering System created SPARQL queries based on the question and executed those queries on a Knowledge Graph to get an answer.  A Knowledge graph was created for Zoning Ordinance laws.
+* Team project to create a Knowledge Graph Question Answering System.  The software answered natural language questions about Zoning Ordinance laws. The Question Answering System recognized the question matched it to a template, found key words, and filled the key words into slots in the SPARQL query. The queries were executed on a Knowledge Graph for a Zoning Ordinance—created for this project—to obtain the answer.  The class project was for CS&nbsp;662 Natural Language Processing.
 
 ### [Legal Text Website](/projects/legal-text/)
 
 <a href="/projects/legal-text/"><img src="/images/resume/legal_text-250px.webp" class="resume-prj-img"></a>
 
-* June to August 2022 
-* Scraped the Constitution of Alabama and created a website that presents legal codes in a more usable format.  Features of this website were display legal text, searching, section links, and a users registration system.  Technologies used in this project include: [Python](/tags/Python/): Flask, and MongoDB.
+* June to August 2022
+* Presented legal codes in a more usable website. Scraped the Constitution of Alabama to use it for this project with BeautifulSoup.  Features of this website were display legal text, searching, section links, and a users registration system.  Technologies used in this project include: [Python](/tags/Python/), [Flask](/tags/Flask/), and [MongoDB](/tags/MongoDB/).
 
 ### [Agricultural Drone Dashboard](/projects/drone/)
 
 <a href="/projects/drone/"><img src="/images/resume/ag_drone-250px.webp" class="resume-prj-img"></a>
 
 * October 2021 to December 2021
-* Led a four person team to build a software that did agricultural drone scanning.  The software simulated a flight on the screen and also flew a physical drone.  The team explored the software development process with use cases, state charts, and implementing the software in [Java](/tags/Java/) and JavaFX.  <abbr title="Object-oriented programming">OOP</abbr> patterns were also incorporated into this project.  This was the final project for the [CS 520 Software Engineering class](#Select-Coursework).
+* Led a four person team that built software for agricultural drone scanning.  The software simulated a flight on the screen and also flew a physical drone.  The team explored the software development process with use cases, state charts, and implementing the software in [Java](/tags/Java/) and JavaFX.  <abbr title="Object-oriented programming">OOP</abbr> patterns were also incorporated into this project.  This was the final project for the [CS 520 Software Engineering class](#Select-Coursework).
 
 ### [recipe-crawler](/projects/recipe-crawler/)
 * June 2021 to present
@@ -159,7 +159,7 @@ I am software development professional available for hire.  I have 16 years expe
 
 ### [pyproj](https://github.com/pyproj4/pyproj)
 * 2016 to 2019
-* Python library for cartographic projection and spatial transformation.  It is a wrapper for PROJ C library using Cython to interface between the C library and the Python. At that point, the project was maintaining a single codebase that would work on Python 2.7 and 3.x.
+* Python library for cartographic projection and spatial transformation.  It is a wrapper for the PROJ C library using Cython to interface between the C library and the Python. At that point, the project was maintaining a single codebase that would work on Python 2.7 and 3.x.
 * Provided support for end users (programmers), wrote documentation, contributed fixes, wrote unit tests, reviewed user contributions, and merged contributions.
 
 
@@ -192,8 +192,8 @@ I am software development professional available for hire.  I have 16 years expe
     <p>Introduction to web application design and development. Includes traditional web applications utilizing server-side scripting as well as client/server platforms. Covers responsive design for both mobile and desktop users, as well as hands on server provisioning and configuration. Other topics include web security problems and practices, authentication, database access, application deployment and Web API design, such as REpresentational State Transfer (<abbr>REST</abbr>).</p>
 </details>
 <details>
-    <summary>CS&nbsp;632 - Parallel Computing (currently taking)</summary>
-    <p>Overview of parallel computing hardware, architectures, & programming paradigms; parallel programming using MPI, Pthreads, and OpenMP; design, development, and analysis of parallel algorithms for matrix computations, FFTs, and Sorting.</p>
+    <summary>CS&nbsp;632 - Parallel Computing</summary>
+    <p>Overview of parallel computing hardware, architectures, & programming paradigms; parallel programming using <abbr title="Message Passing Interface">MPI</abbr>, Pthreads, and OpenMP; design, development, and analysis of parallel algorithms for matrix computations, FFTs, and Sorting.</p>
 </details>
 <details>
     <summary>CS&nbsp;633 – Cloud Computing</summary>
@@ -205,7 +205,7 @@ I am software development professional available for hire.  I have 16 years expe
 </details>
 <details>
     <summary><a href="/tags/CS662/">CS&nbsp;662 – Natural Language Processing</a></summary>
-    <p>This course provides a broad introduction to Natural Language Processing (Computational Linguistics) and its applications. Topics covered include language modeling with neural networks, sequence labelling algorithms (segmentation, chunking, tokenization, part-of-speech tagging and others ), syntactic and dependency parsing, vector-based representation models and using Deep Learning in NLP applications. Some application areas covered include information extraction and named entity recognition, semantic role labelling, word sense disambiguation, text generation, information retrieval, question answering, machine translation and other areas as time permits. There will be a focus on Deep Learning approaches using Tensorflow, PyTorch and keras for a major student project. Jupyter Notebooks will be used for assignments.</p>
+    <p>This course provides a broad introduction to Natural Language Processing (Computational Linguistics) and its applications. Topics covered include language modeling with neural networks, sequence labelling algorithms (segmentation, chunking, tokenization, part-of-speech tagging and others ), syntactic and dependency parsing, vector-based representation models and using Deep Learning in <abbr title="Natural Language Processing">NLP</abbr> applications. Some application areas covered include information extraction and named entity recognition, semantic role labelling, word sense disambiguation, text generation, information retrieval, question answering, machine translation and other areas as time permits. There will be a focus on Deep Learning approaches using Tensorflow, PyTorch and keras for a major student project. Jupyter Notebooks will be used for assignments.</p>
 </details>
 
 <br>
