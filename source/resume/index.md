@@ -147,7 +147,7 @@ I am software development professional available for hire.  I have 16 years expe
 ### [recipe-crawler](/projects/recipe-crawler/)
 * June 2021 to present
 * A [Python](/tags/Python/) web crawler for recipes in HTML [https://schema.org/Recipe](https://schema.org/Recipe) (Microdata/<abbr title="JavaScript Object Notation for Linked Data">JSON-LD)</abbr>, which output cookbooks in JSON format.  Beautiful Soup library is used to get the anchor tags from HTML.  [scrape-schema-recipe](/projects/recipe/) library (below) is used to get the recipes from HTML. 
-    * I programmed the software and maintain the repository.
+* I programmed the software and maintain the repository.
 
 ### request_builder.py
 * 2020 to August 2021

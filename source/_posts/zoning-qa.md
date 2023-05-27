@@ -1,6 +1,7 @@
 ---
 title: Zoning Ordinance Question Answering
 date: 2023-03-01 15:49:00
+updated: 2023-05-20 21:54:00
 tags: 
     - Python
     - Natural Language Processing
@@ -14,26 +15,28 @@ categories:
 
 [Zoning Ordinance Question Answering](https://github.com/micahcochran/cs662-qa-land-dev-law-sys) was a team project to create a system that that answers natural language questions about Zoning Ordinance laws.  
 
-Use natural language questions to about Zoning instead of having to use a query language.  Instead of a query, use the power of a question like "Which zoning districts can a restaurant be built within?"
+Use natural language questions to answer questions about Zoning instead of having to use a query language.  Query languages can be very precise, but are hard for most people to learn.  Instead of a query, use the power of a question like "Which zoning districts can a restaurant be built within?"
 
 
 ## Terminal Screencast
-
-Best viewed full screen.
 
 <div id="screencast-player"></div>
 
 <br>
 
-**Notes:** A <abbr>C1</abbr> zoning district is a Commercial 1 District.  <abbr>R1</abbr> is a Residential 1 Zoning District.  Typical zoning ordinances would allow restaurant in C districts, not R districts due to the intensity of the use. 
+**Notes:** A <abbr>C1</abbr> zoning district is a Commercial 1 District.  <abbr>R1</abbr> is a Residential 1 Zoning District.  Typically, zoning ordinances would allow restaurant in <abbr>C</abbr> districts, but not in <abbr>R</abbr> districts due to the intensity of the use. 
 
 
 <br>
 
 ## Technology
-A Knowledge graph was created for Zoning Ordinance laws.  The knowledge graph was feed into software that generated question based on templates.  Those questions were used to train the model.  
+A Knowledge graph was created to represent Zoning Ordinance laws.  The knowledge graph used a template method to generate questions, and train the Neural Network models.  
 
-<p>The software matches questions to the appropriate SPARQL templates and fill in slots of that template, run the SPARQL query against the Knowledge Graph to get the results. The software was programmed in Python.  <abbr>SBERT</abbr> (Sentence BERT) was used to determine (cosine) similarity of words/phrases. Passing similar terms like "quary" and "mining" receives a high score (0.4751), and passing unrelated terms like "fish" and "outer space" receives a lower score (0.2087).   XGBoost and scikit-learn are machine learning libraries used to match question text to the SPARQL template and determine the relation slot.  The Knowledge Graph was stored in Turtle RDF and SPARQL was used to query the Knowledge Graph. This was a two person project for the final class project for CS&nbsp;662 Natural Language Processing.  This software is an application of those methods.</p>
+<p>The software matches questions to the appropriate SPARQL templates and fill in slots of that template, run the SPARQL query against the Knowledge Graph to get the results. The software was programmed in <a href="/tags/Python/">Python</a>.  <abbr>SBERT</abbr> (Sentence BERT) was used to determine (cosine) similarity of words/phrases, which are on a scale of 0.0&mdash;1.0. Terms like "barber shop" and "hair salon" receive a high similarity score (0.6971). Unrelated terms like "elaborate" and "north" receives a low similarity score (0.0456).</p>
+
+XGBoost and scikit-learn are machine learning libraries used to match question text to the SPARQL template and determine the relation slot.  The Knowledge Graph was stored in Turtle RDF, and SPARQL was used to query the Knowledge Graph.
+
+<p>This was a two-person team class project for CS&nbsp;662 Natural Language Processing.  This software is an applies those methods.</p>
 
 
 <figure>
@@ -44,9 +47,9 @@ A Knowledge graph was created for Zoning Ordinance laws.  The knowledge graph wa
 
 Each of these steps shown in the diagram were replicated in the this software.
 
-The International Zoning Code (<abbr>IZC</abbr>) was used as the source material to create the Knowledge Graph. The <abbr>IZC</abbr> is a general Zoning Ordinance that does not contain amendments tailored to a specific jurisdiction. <abbr title="Resource Description Framework">RDF</abbr> triples had to be created to represent permitted uses and dimensional requirements for a Knowledge Graph.
+The International Zoning Code (<abbr>IZC</abbr>) was used as the source material for the Zoning rules used to create the Knowledge Graph. The <abbr>IZC</abbr> is a general Zoning Ordinance that does not contain amendments tailored to a specific jurisdiction. <abbr title="Resource Description Framework">RDF</abbr> triples had to be created to represent permitted uses and dimensional requirements for a Knowledge Graph.
 
-This software could enable citizen exploration of Zoning laws without becoming a legal expert.  Also,the knowledge graphs provides a framework that could be used by professional who deal with multiple Zoning Ordinances to find answers through SPARQL queries (if this framework were adopted by multiple local governments).
+This beauty of this software is it could enable citizen exploration of Zoning laws without having to become a legal expert.  The knowledge graphs could be used by a professional who deal has to ask the same question in multiple Zoning Ordinances.  Find those answers would be easier using SPARQL queries, which can be written once and ran many times (once adopted by local governments).
 
 
 ## Poster
