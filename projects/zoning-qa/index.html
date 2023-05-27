@@ -204,17 +204,19 @@
             <h2>Zoning Ordinance Question Answering</h2>
 
   <p><a target="_blank" rel="noopener" href="https://github.com/micahcochran/cs662-qa-land-dev-law-sys">Zoning Ordinance Question Answering</a> was a team project to create a system that that answers natural language questions about Zoning Ordinance laws.  </p>
-<p>Use natural language questions to about Zoning instead of having to use a query language.  Instead of a query, use the power of a question like “Which zoning districts can a restaurant be built within?”</p>
-<h2 id="Terminal-Screencast"><a href="#Terminal-Screencast" class="headerlink" title="Terminal Screencast"></a>Terminal Screencast</h2><p>Best viewed full screen.</p>
-<div id="screencast-player"></div>
+<p>Use natural language questions to answer questions about Zoning instead of having to use a query language.  Query languages can be very precise, but are hard for most people to learn.  Instead of a query, use the power of a question like “Which zoning districts can a restaurant be built within?”</p>
+<h2 id="Terminal-Screencast"><a href="#Terminal-Screencast" class="headerlink" title="Terminal Screencast"></a>Terminal Screencast</h2><div id="screencast-player"></div>
 
 <br>
 
-<p><strong>Notes:</strong> A <abbr>C1</abbr> zoning district is a Commercial 1 District.  <abbr>R1</abbr> is a Residential 1 Zoning District.  Typical zoning ordinances would allow restaurant in C districts, not R districts due to the intensity of the use. </p>
+<p><strong>Notes:</strong> A <abbr>C1</abbr> zoning district is a Commercial 1 District.  <abbr>R1</abbr> is a Residential 1 Zoning District.  Typically, zoning ordinances would allow restaurant in <abbr>C</abbr> districts, but not in <abbr>R</abbr> districts due to the intensity of the use. </p>
 <br>
 
-<h2 id="Technology"><a href="#Technology" class="headerlink" title="Technology"></a>Technology</h2><p>A Knowledge graph was created for Zoning Ordinance laws.  The knowledge graph was feed into software that generated question based on templates.  Those questions were used to train the model.  </p>
-<p>The software matches questions to the appropriate SPARQL templates and fill in slots of that template, run the SPARQL query against the Knowledge Graph to get the results. The software was programmed in Python.  <abbr>SBERT</abbr> (Sentence BERT) was used to determine (cosine) similarity of words/phrases. Passing similar terms like "quary" and "mining" receives a high score (0.4751), and passing unrelated terms like "fish" and "outer space" receives a lower score (0.2087).   XGBoost and scikit-learn are machine learning libraries used to match question text to the SPARQL template and determine the relation slot.  The Knowledge Graph was stored in Turtle RDF and SPARQL was used to query the Knowledge Graph. This was a two person project for the final class project for CS&nbsp;662 Natural Language Processing.  This software is an application of those methods.</p>
+<h2 id="Technology"><a href="#Technology" class="headerlink" title="Technology"></a>Technology</h2><p>A Knowledge graph was created to represent Zoning Ordinance laws.  The knowledge graph used a template method to generate questions, and train the Neural Network models.  </p>
+<p>The software matches questions to the appropriate SPARQL templates and fill in slots of that template, run the SPARQL query against the Knowledge Graph to get the results. The software was programmed in <a href="/tags/Python/">Python</a>.  <abbr>SBERT</abbr> (Sentence BERT) was used to determine (cosine) similarity of words/phrases, which are on a scale of 0.0&mdash;1.0. Terms like "barber shop" and "hair salon" receive a high similarity score (0.6971). Unrelated terms like "elaborate" and "north" receives a low similarity score (0.0456).</p>
+
+<p>XGBoost and scikit-learn are machine learning libraries used to match question text to the SPARQL template and determine the relation slot.  The Knowledge Graph was stored in Turtle RDF, and SPARQL was used to query the Knowledge Graph.</p>
+<p>This was a two-person team class project for CS&nbsp;662 Natural Language Processing.  This software is an applies those methods.</p>
 
 
 <figure>
@@ -224,8 +226,8 @@
 
 
 <p>Each of these steps shown in the diagram were replicated in the this software.</p>
-<p>The International Zoning Code (<abbr>IZC</abbr>) was used as the source material to create the Knowledge Graph. The <abbr>IZC</abbr> is a general Zoning Ordinance that does not contain amendments tailored to a specific jurisdiction. <abbr title="Resource Description Framework">RDF</abbr> triples had to be created to represent permitted uses and dimensional requirements for a Knowledge Graph.</p>
-<p>This software could enable citizen exploration of Zoning laws without becoming a legal expert.  Also,the knowledge graphs provides a framework that could be used by professional who deal with multiple Zoning Ordinances to find answers through SPARQL queries (if this framework were adopted by multiple local governments).</p>
+<p>The International Zoning Code (<abbr>IZC</abbr>) was used as the source material for the Zoning rules used to create the Knowledge Graph. The <abbr>IZC</abbr> is a general Zoning Ordinance that does not contain amendments tailored to a specific jurisdiction. <abbr title="Resource Description Framework">RDF</abbr> triples had to be created to represent permitted uses and dimensional requirements for a Knowledge Graph.</p>
+<p>This beauty of this software is it could enable citizen exploration of Zoning laws without having to become a legal expert.  The knowledge graphs could be used by a professional who deal has to ask the same question in multiple Zoning Ordinances.  Find those answers would be easier using SPARQL queries, which can be written once and ran many times (once adopted by local governments).</p>
 <h2 id="Poster"><a href="#Poster" class="headerlink" title="Poster"></a>Poster</h2><p><a href="https://github.com/micahcochran/cs662-qa-land-dev-law-sys/raw/main/poster/2022-11-29-final-poster.pdf" target="_self">Poster PDF</a>15.5MB</p>
 <p><a target="_blank" rel="noopener" href="https://github.com/micahcochran/cs662-qa-land-dev-law-sys/raw/main/poster/2022-11-29-final-poster.pdf"><img src="/images/2022-11-29-final-poster.webp" alt="Poster"></a></p>
 <h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p>The software method is from this paper:</p>
