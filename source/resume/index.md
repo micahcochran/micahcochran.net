@@ -23,11 +23,11 @@ theme: minima
 <article itemscope itemtype="https://schema.org/Person">
 
 
-# Micah D. Cochran
+# Micah D. Cochran, M.Sc.
 
 <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
     <img data-feather="map-pin" alt="Address">
-    <span itemprop="streetAddress"> 3673 Saint Clair RD</span>,
+    <span itemprop="streetAddress"> 3673 Saint Clair RD</span>, <br>
     <span itemprop="addressLocality">Springville</span>,
     <span itemprop="addressRegion">AL</span>
     <span itemprop="postalCode">35146</span><br>
