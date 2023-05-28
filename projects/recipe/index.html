@@ -24,7 +24,7 @@
   
   
   
-  <meta property="og:site_name" content="Micah D. Cochran" />
+  <meta property="og:site_name" content="Micah D. Cochran, M.Sc." />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="scrape-schema-recipe Library" />
   
@@ -172,7 +172,7 @@
 
   <div class="six columns ml-1">
     <h1 class="mt-2">
-      Micah D. Cochran
+      Micah D. Cochran, M.Sc.
     </h1>
   </div>
 
@@ -203,10 +203,90 @@
         <div class="trans">
             <h2>scrape-schema-recipe Library</h2>
 
-  <p><a target="_blank" rel="noopener" href="https://github.com/micahcochran/scrape-schema-recipe">scrape-schema-recipe</a> is a Python library that scrapes recipes from websites and HTML files.  Those recipes are structured microdata using the <a target="_blank" rel="noopener" href="http://schema.org/Recipe/">schema.org&#x2F;Recipe format</a>.  It returns that representation as a list of dictionaries (there could be multiple recipes on a webpage such as a cookbook).</p>
-<p>Below is a screenshot of a <a target="_blank" rel="noopener" href="https://medlineplus.gov/recipes/chicken-and-black-bean-salsa-burritos/">recipe for Chicken and Black Bean Salsa Burritos</a> on the MedlinePlus website:<br><img src="/images/ssr/ssr-medlineplus.webp" alt="Image of recipe" title="Screenshot of recipe for &#39;Chicken and Black Bean Salsa Burritos&#39; on MedlinePlus website."></p>
-<p>Below is what that structured data from the above recipe looks in a Python dictionary (very similar to a JSON representation):<br><img src="/images/ssr/ssr-dict-recipe.webp" alt="Image of schema.org/Recipe data" title="Python Dictionary of &#39;Chicken and Black Bean Salsa Burritos&#39;"></p>
-<p>Here’s the Python code to print the above:</p>
+  <p><a target="_blank" rel="noopener" href="https://github.com/micahcochran/scrape-schema-recipe">scrape-schema-recipe</a> is a Python library that scrapes recipes from websites and HTML files.  Those recipes are structured microdata using the <a target="_blank" rel="noopener" href="http://schema.org/Recipe/">schema.org&#x2F;Recipe format</a>.  It returns that representation as a list of dictionaries (since there could be multiple recipes on a webpage such as a cookbook).</p>
+<figure>
+    <img src="/images/ssr/ssr-medlineplus.webp">
+    <figcaption>Screenshot of a <a target="_blank" rel="noopener" href="https://medlineplus.gov/recipes/chicken-and-black-bean-salsa-burritos/">Chicken and Black Bean Salsa Burritos recipe</a> from the MedlinePlus website.</figcaption>
+</figure>
+
+<p>Below is the Python dictionary of ‘Chicken and Black Bean Salsa Burritos’:</p>
+<pre><code class="python-html">
+&#123;'@context': 'https://schema.org/',
+ '@type': 'Recipe',
+ 'author': &#123;'@type': 'Organization', 'name': 'Food Hero'&#125;,
+ 'cookTime': 'PT30M',
+ 'datePublished': '2021-04-01',
+ 'description': 'Fresh lemon juice and green onions bring out a zesty flavor '
+                'in these oven-baked chicken and black bean salsa burritos. '
+                'Pepper Jack cheese adds a nice kick!',
+ 'image': ['https://medlineplus.gov/images/recipe_chickenandblackbeansalsaburritos.jpg',
+           'https://medlineplus.gov/images/recipe_chickenandblackbeansalsaburritos_fb.jpg'],
+ 'keywords': 'lemon juice,green onions,zesty,oven,chicken,black '
+             'bean,salsa,pepper jack cheese,lunch,dinner',
+ 'name': 'Chicken and Black Bean Salsa Burritos',
+ 'nutrition': &#123;'@type': 'NutritionInformation',
+               'calories': '260 calories',
+               'carbohydrateContent': '24 grams',
+               'cholesterolContent': '55 milligrams',
+               'fatContent': '8 grams',
+               'fiberContent': '4 grams',
+               'proteinContent': '22 grams',
+               'saturatedFatContent': '3.5 grams',
+               'servingSize': '1/2 burrito (161 grams)',
+               'sodiumContent': '410 milligrams'&#125;,
+ 'prepTime': 'PT20M',
+ 'recipeCategory': 'lunch,dinner',
+ 'recipeCuisine': 'American',
+ 'recipeIngredient': ['1 can (15 ounces) black beans, drained and rinsed',
+                      '2 green onions, chopped',
+                      '1 Tablespoon lemon juice',
+                      '1/4 teaspoon ground cumin',
+                      '1/2 teaspoon salt, divided',
+                      '4 boneless, skinless chicken breasts',
+                      '1/4 teaspoon chili powder',
+                      '1/4 teaspoon pepper',
+                      '1 cup shredded cheese (try cheddar, pepper jack, or '
+                      'Mexican blend)',
+                      '4 (9-inch) flour tortillas'],
+ 'recipeInstructions': [&#123;'@type': 'HowToStep',
+                         'text': 'Preheat oven to 350 Â°F.'&#125;,
+                        &#123;'@type': 'HowToStep',
+                         'text': 'In a small bowl, combine the beans, green '
+                                 'onions, lemon juice, cumin, and 1/4 teaspoon '
+                                 'salt.'&#125;,
+                        &#123;'@type': 'HowToStep',
+                         'text': 'Rub the chicken breasts with the chili '
+                                 'powder, pepper and the remaining 1/4 '
+                                 'teaspoon salt.'&#125;,
+                        &#123;'@type': 'HowToStep',
+                         'text': 'Cook the chicken in a skillet over '
+                                 'medium-high heat (350 Â°F in an electric '
+                                 'skillet) for 5 to 7 minutes. Turn it over '
+                                 'and cook until the internal temperature of '
+                                 'the thickest part reaches 165 Â°F using a '
+                                 'food thermometer, about 5 to 7 minutes '
+                                 'longer.'&#125;,
+                        &#123;'@type': 'HowToStep',
+                         'text': 'Let chicken cool; slice into strips or '
+                                 'chunks.'&#125;,
+                        &#123;'@type': 'HowToStep',
+                         'text': 'Divide cheese evenly between tortillas. Top '
+                                 'the cheese with equal amounts of chicken and '
+                                 'black bean salsa mixture.'&#125;,
+                        &#123;'@type': 'HowToStep',
+                         'text': 'Roll up the burritos and wrap each one in '
+                                 'foil.'&#125;,
+                        &#123;'@type': 'HowToStep',
+                         'text': 'Bake burritos until the cheese melts, about '
+                                 '15 minutes.'&#125;,
+                        &#123;'@type': 'HowToStep',
+                         'text': 'Refrigerate leftovers within 2 hours.'&#125;],
+ 'recipeYield': '8 servings',
+ 'totalTime': 'PT50M',
+ 'url': 'https://medlineplus.gov/recipes/chicken-and-black-bean-salsa-burritos/'&#125;
+</code></pre>
+
+<p>Here’s the Python code used to print the above:</p>
 <pre><code class="python-html">
 from scrape_schema_recipe import scrape_url
 import pprint
@@ -217,11 +297,18 @@ recipe = results[0]
 pprint.pprint(recipe)
 </code></pre>
 
-<p>This library scrapes the source and gives the results at a list of dictionaries.  The code can convert the some data into native Python objects, so dates into <code>datetime.date</code> objects, and durations (like “Cook Time: 30 minutes”) into <code>datetime.timedelta</code> objects (<code>datetime.timedelta(seconds=1800)</code> - minutes are not a unit used by timedelta). Other software can use this to scrape this recipe information from a URL or an HTML file.</p>
-<p>Since schema.org&#x2F;Recipe data is structured microdata, this is a pattern that web designers and frontend web developers can have a standard way to structure recipe data on any projects.  There are multiple patterns like this (see <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Microdata">Microdata</a>).  Others software can copying that structured recipe or doing something else with it that it (software doing nutrition calculations, checking if it meets a specific diet, or putting it onto a recipe webiste).</p>
-<p>schema.org&#x2F;Recipe specification, which has multiple properties that makeup the structure:<br><img src="/images/ssr/ssr-schema-org-recipe.webp" alt="picture of the website schema.org/Recipe specification" title="schema.org/Recipe specification, which has multiple properties that makeup the structure."> </p>
-<p>This project has unit testing to ensure that future changes do not break existing functionality.</p>
-<p>This library is hosted on <a target="_blank" rel="noopener" href="https://pypi.org/project/scrape-schema-recipe/">pypi</a> for anyone to be able to install via the <code>pip</code> with the command <code>pip install scrape-schema-recipe</code>.</p>
+<p>This library is hosted on <a target="_blank" rel="noopener" href="https://pypi.org/project/scrape-schema-recipe/">pypi</a>. In order to run the example, the library will need to be installed:</p>
+<pre><code class="bash-html">
+$ pip3 install scrape-schema-recipe
+</code></pre>
+
+<p>This library scrapes the source and gives the results at a list of dictionaries.  The code can optionally be convert the some data into native Python objects, </p>
+<ul>
+<li>so dates turn into <code>datetime.date</code> objects, </li>
+<li>and durations (like “Cook Time: 30 minutes”) into <code>datetime.timedelta</code> objects (<code>datetime.timedelta(seconds=1800)</code> &amp;mdash; minutes are not a <code>timedelta</code> unit).</li>
+</ul>
+<p>Since schema.org&#x2F;Recipe data is structured <a target="_blank" rel="noopener" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Microdata">Microdata</a>, this is a pattern that web designers and frontend web developers can have a standard way to structure recipe data.  Others software can copying that structured recipe or doing something else with it that it (software doing nutrition calculations, checking if it meets a specific diet, and so on).</p>
+<p>Unit testing is used to ensure that future changes do not break existing functionality.</p>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
 <script>hljs.highlightAll();</script>
   <p><a class="classtest-link" href="/tags/Python/" rel="tag">Python</a>, <a class="classtest-link" href="/tags/library/" rel="tag">library</a>, <a class="classtest-link" href="/tags/schema/" rel="tag">schema</a>, <a class="classtest-link" href="/tags/schema-org/" rel="tag">schema-org</a>, <a class="classtest-link" href="/tags/unit-testing/" rel="tag">unit testing</a> — Jul 30, 2021</p>
