@@ -26,7 +26,7 @@ theme: minima
 <article itemscope itemtype="https://schema.org/Person">
 
 
-# Micah D. Cochran, M.Sc.
+# Micah D. Cochran, MSCS
 
 <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
     <img data-feather="map-pin" alt="Address">
@@ -46,6 +46,7 @@ theme: minima
 
 I am software development professional available for hire.  I have 16 years experience in land development law and Geographic Information Systems (<abbr>GIS</abbr>) working for a municipal Public Works Department.  My interests include Geographic Information Systems, Natural Language Processing, and the Semantic Web.
 
+---
 
 ## Work
 
@@ -94,6 +95,7 @@ I am software development professional available for hire.  I have 16 years expe
     </li>
 </ul>
 
+---
 
 ## Education
 
@@ -113,6 +115,7 @@ I am software development professional available for hire.  I have 16 years expe
     </ul>
 </section>
 
+---
 
 ## Technical Skills
 
@@ -124,6 +127,7 @@ I am software development professional available for hire.  I have 16 years expe
 * Tools: <span itemprop="knowsAbout">git</span> / [GitHub](https://github.com/micahcochran) / GitLab, <span itemprop="knowsAbout">Docker</span>, <span itemprop="knowsAbout">Amazon Web Services</span>, <span itemprop="knowsAbout">pandoc</span>, <a href="/tags/Vagrant/" itemprop="knowsAbout">Vagrant</a>
 * GIS Software: <span itemprop="knowsAbout">ESRI ArcGIS Desktop</span>, <span itemprop="knowsAbout">QGIS</span>
 
+---
 
 ## Projects
 
@@ -207,6 +211,8 @@ var layout = {
 Plotly.newPlot('language-pi-chart', data, layout);
 </script>
 
+---
+
 ## Select Coursework
 
 <details>
@@ -242,7 +248,7 @@ Plotly.newPlot('language-pi-chart', data, layout);
 <p>For a complete list of courses with descriptions, see the <a href="/courses/">course descriptions</a>.</p>
 
 
-
+---
 
 ## General Skills
 * Creating and maintaining website content.
@@ -253,10 +259,12 @@ Plotly.newPlot('language-pi-chart', data, layout);
 * training general public over the phone and in person to use online maps
 * IT troubleshooting Level 1
 
+---
 
 ## IT Certificates
 * CompTIA [A+ certified](https://www.youracclaim.com/badges/e4215b02-50be-409f-9175-70e4553c6268/public_url) - July 2020
 
+---
 
 ## Other Activities
 * Athens Pride Coalition
