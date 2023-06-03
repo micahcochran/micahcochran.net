@@ -7,6 +7,9 @@ theme: minima
 <script src="https://unpkg.com/feather-icons"></script>
 <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 
+<!-- Load plotly.js -->
+<script src="https://cdn.plot.ly/plotly-2.20.0.min.js" charset="utf-8"></script>
+
 <nav class="resume-nav">
 
 * [Work](#Work)
@@ -47,7 +50,7 @@ I am software development professional available for hire.  I have 16 years expe
 ## Work
 
 <ul>
-    <h3 itemprop="jobTitle">Student Worker <abbr title="Information Technology">IT</abbr> Services</h3>
+    <h3 itemprop="jobTitle"><abbr title="Information Technology">IT</abbr> Student Worker</h3>
         <ul>
             <li>September 2021 - April 2023</li>
             <li>
@@ -114,11 +117,11 @@ I am software development professional available for hire.  I have 16 years expe
 ## Technical Skills
 
 * Language: <a href="/tags/Python/" itemprop="knowsAbout">Python</a>, <span itemprop="knowsAbout">C</span>, [Java](/tags/Java/), Shell \[<span itemprop="knowsAbout">bash</span>|<span itemprop="knowsAbout">fish</span>\], <span itemprop="knowsAbout">JavaScript</span>, <span itemprop="knowsAbout">Racket</span>
-* Technology: <a href="/tags/Flask/" itemprop="knowsAbout">Flask</a>, <abbr title="Message Passing Interface" itemprop="knowsAbout">MPI</abbr>, <span itemprop="knowsAbout">OpenMP</span>, <abbr title="Resource Description Framework"><a href="/tags/RDF/" itemprop="knowsAbout">RDF</a></abbr>, <a href="/tags/SPARQL/" itemprop="knowsAbout">SPARQL</a>, <abbr title="Structured Query Language" itemprop="knowsAbout">SQL</abbr>
+* Technology: <a href="/tags/Flask/" itemprop="knowsAbout">Flask</a>, <abbr title="Message Passing Interface" itemprop="knowsAbout">MPI</abbr>, <span itemprop="knowsAbout">OpenMP</span>, <a href="/tags/SPARQL/" itemprop="knowsAbout">SPARQL</a>, <abbr title="Structured Query Language" itemprop="knowsAbout">SQL</abbr>
 * Operating Systems: Linux (multiple distributions) / Windows
 * <abbr title="Integrated Development Environments">IDEs</abbr>: <span itemprop="knowsAbout">Visual Studio Code</span>, <span itemprop="knowsAbout">PyCharm</span>, <span itemprop="knowsAbout">Eclipse</span>, <span itemprop="knowsAbout">Jupyter Notebook</span>
-* Database: <a href="/tags/MongoDB/" itemprop="knowsAbout">MongoDB</a>, <a href="/tags/SQLite/" itemprop="knowsAbout">SQLite</a>
-* Tool: <span itemprop="knowsAbout">git</span> / [GitHub](https://github.com/micahcochran) / GitLab, <span itemprop="knowsAbout">Docker</span>, <span itemprop="knowsAbout">Amazon Web Services</span>, <span itemprop="knowsAbout">pandoc</span>, <a href="/tags/Vagrant/" itemprop="knowsAbout">Vagrant</a>
+* Data Storage: <a href="/tags/MongoDB/" itemprop="knowsAbout">MongoDB</a>, <abbr title="Resource Description Framework"><a href="/tags/RDF/" itemprop="knowsAbout">RDF</a></abbr>, <a href="/tags/SQLite/" itemprop="knowsAbout">SQLite</a>
+* Tools: <span itemprop="knowsAbout">git</span> / [GitHub](https://github.com/micahcochran) / GitLab, <span itemprop="knowsAbout">Docker</span>, <span itemprop="knowsAbout">Amazon Web Services</span>, <span itemprop="knowsAbout">pandoc</span>, <a href="/tags/Vagrant/" itemprop="knowsAbout">Vagrant</a>
 * GIS Software: <span itemprop="knowsAbout">ESRI ArcGIS Desktop</span>, <span itemprop="knowsAbout">QGIS</span>
 
 
@@ -179,6 +182,30 @@ I am software development professional available for hire.  I have 16 years expe
 
 <p style="clear: right">(for other project and miscellaneous open source contributions see GitHub: <a href="https://github.com/micahcochran">micahcochran</a>)</p>
 
+
+<figure>
+    <div id="language-pi-chart"></div>
+    <figcaption>Chart shows that Python is used in 7 out of 8 projects and Java is used in 1 out of 8 projects.</figcaption>
+</figure>
+
+<script>
+var data = [{
+  values: [1, 7],
+  labels: ['Java', 'Python'],
+  type: 'pie'
+
+}];
+
+
+var layout = {
+  title: 'Projects by Programming Language',
+  height: 300,
+  width: 500
+};
+
+
+Plotly.newPlot('language-pi-chart', data, layout);
+</script>
 
 ## Select Coursework
 
@@ -247,6 +274,6 @@ I am software development professional available for hire.  I have 16 years expe
 </article>
 
 <script>
-    <!-- adds feather icons -->
+  // adds feather icons
   feather.replace()
 </script>

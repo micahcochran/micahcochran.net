@@ -7,6 +7,8 @@ public/
 .deploy*/
 _multiconfig.yml
 
+.vscode/
+
 source/_drafts/
 
 # per https://hexo.io/docs/github-pages
