@@ -207,6 +207,9 @@
 <script src="https://unpkg.com/feather-icons"></script>
 <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 
+<!-- Load plotly.js -->
+<script src="https://cdn.plot.ly/plotly-2.20.0.min.js" charset="utf-8"></script>
+
 <nav class="resume-nav">
 
 <ul>
@@ -239,7 +242,7 @@
 
 <h2 id="Who-Am-I"><a href="#Who-Am-I" class="headerlink" title="Who Am I"></a>Who Am I</h2><p>I am software development professional available for hire.  I have 16 years experience in land development law and Geographic Information Systems (<abbr>GIS</abbr>) working for a municipal Public Works Department.  My interests include Geographic Information Systems, Natural Language Processing, and the Semantic Web.</p>
 <h2 id="Work"><a href="#Work" class="headerlink" title="Work"></a>Work</h2><ul>
-    <h3 itemprop="jobTitle">Student Worker <abbr title="Information Technology">IT</abbr> Services</h3>
+    <h3 itemprop="jobTitle"><abbr title="Information Technology">IT</abbr> Student Worker</h3>
         <ul>
             <li>September 2021 - April 2023</li>
             <li>
@@ -303,11 +306,11 @@
 
 <h2 id="Technical-Skills"><a href="#Technical-Skills" class="headerlink" title="Technical Skills"></a>Technical Skills</h2><ul>
 <li>Language: <a href="/tags/Python/" itemprop="knowsAbout">Python</a>, <span itemprop="knowsAbout">C</span>, <a href="/tags/Java/">Java</a>, Shell [<span itemprop="knowsAbout">bash</span>|<span itemprop="knowsAbout">fish</span>], <span itemprop="knowsAbout">JavaScript</span>, <span itemprop="knowsAbout">Racket</span></li>
-<li>Technology: <a href="/tags/Flask/" itemprop="knowsAbout">Flask</a>, <abbr title="Message Passing Interface" itemprop="knowsAbout">MPI</abbr>, <span itemprop="knowsAbout">OpenMP</span>, <abbr title="Resource Description Framework"><a href="/tags/RDF/" itemprop="knowsAbout">RDF</a></abbr>, <a href="/tags/SPARQL/" itemprop="knowsAbout">SPARQL</a>, <abbr title="Structured Query Language" itemprop="knowsAbout">SQL</abbr></li>
+<li>Technology: <a href="/tags/Flask/" itemprop="knowsAbout">Flask</a>, <abbr title="Message Passing Interface" itemprop="knowsAbout">MPI</abbr>, <span itemprop="knowsAbout">OpenMP</span>, <a href="/tags/SPARQL/" itemprop="knowsAbout">SPARQL</a>, <abbr title="Structured Query Language" itemprop="knowsAbout">SQL</abbr></li>
 <li>Operating Systems: Linux (multiple distributions) &#x2F; Windows</li>
 <li><abbr title="Integrated Development Environments">IDEs</abbr>: <span itemprop="knowsAbout">Visual Studio Code</span>, <span itemprop="knowsAbout">PyCharm</span>, <span itemprop="knowsAbout">Eclipse</span>, <span itemprop="knowsAbout">Jupyter Notebook</span></li>
-<li>Database: <a href="/tags/MongoDB/" itemprop="knowsAbout">MongoDB</a>, <a href="/tags/SQLite/" itemprop="knowsAbout">SQLite</a></li>
-<li>Tool: <span itemprop="knowsAbout">git</span> &#x2F; <a target="_blank" rel="noopener" href="https://github.com/micahcochran">GitHub</a> &#x2F; GitLab, <span itemprop="knowsAbout">Docker</span>, <span itemprop="knowsAbout">Amazon Web Services</span>, <span itemprop="knowsAbout">pandoc</span>, <a href="/tags/Vagrant/" itemprop="knowsAbout">Vagrant</a></li>
+<li>Data Storage: <a href="/tags/MongoDB/" itemprop="knowsAbout">MongoDB</a>, <abbr title="Resource Description Framework"><a href="/tags/RDF/" itemprop="knowsAbout">RDF</a></abbr>, <a href="/tags/SQLite/" itemprop="knowsAbout">SQLite</a></li>
+<li>Tools: <span itemprop="knowsAbout">git</span> &#x2F; <a target="_blank" rel="noopener" href="https://github.com/micahcochran">GitHub</a> &#x2F; GitLab, <span itemprop="knowsAbout">Docker</span>, <span itemprop="knowsAbout">Amazon Web Services</span>, <span itemprop="knowsAbout">pandoc</span>, <a href="/tags/Vagrant/" itemprop="knowsAbout">Vagrant</a></li>
 <li>GIS Software: <span itemprop="knowsAbout">ESRI ArcGIS Desktop</span>, <span itemprop="knowsAbout">QGIS</span></li>
 </ul>
 <h2 id="Projects"><a href="#Projects" class="headerlink" title="Projects"></a>Projects</h2><h3 id="Zoning-Ordinance-Question-Answering"><a href="#Zoning-Ordinance-Question-Answering" class="headerlink" title="Zoning Ordinance Question Answering"></a><a href="/projects/zoning-qa/">Zoning Ordinance Question Answering</a></h3><ul>
@@ -357,6 +360,30 @@
 </ul>
 <p style="clear: right">(for other project and miscellaneous open source contributions see GitHub: <a target="_blank" rel="noopener" href="https://github.com/micahcochran">micahcochran</a>)</p>
 
+
+<figure>
+    <div id="language-pi-chart"></div>
+    <figcaption>Chart shows that Python is used in 7 out of 8 projects and Java is used in 1 out of 8 projects.</figcaption>
+</figure>
+
+<script>
+var data = [{
+  values: [1, 7],
+  labels: ['Java', 'Python'],
+  type: 'pie'
+
+}];
+
+
+var layout = {
+  title: 'Projects by Programming Language',
+  height: 300,
+  width: 500
+};
+
+
+Plotly.newPlot('language-pi-chart', data, layout);
+</script>
 
 <h2 id="Select-Coursework"><a href="#Select-Coursework" class="headerlink" title="Select Coursework"></a>Select Coursework</h2><details>
     <summary><a href="/tags/CS520/">CS&nbsp;520 – Software Engineering</a></summary>
@@ -426,7 +453,7 @@
 </article>
 
 <script>
-    <!-- adds feather icons -->
+  // adds feather icons
   feather.replace()
 </script>
 
