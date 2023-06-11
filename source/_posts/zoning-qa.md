@@ -51,6 +51,8 @@ The International Zoning Code (<abbr>IZC</abbr>) was used as the source material
 
 This beauty of this software is it could enable citizen exploration of Zoning laws without having to become a legal expert.  The knowledge graphs could be used by a professional who deal has to ask the same question in multiple Zoning Ordinances.  Find those answers would be easier using SPARQL queries, which can be written once and ran many times (once adopted by local governments).
 
+## Another Approach
+My team partner, [Seth Lewis](https://www.linkedin.com/in/seth-lewis-bb8999120/), took two different approaches.  One was a training approach that leveraged a corpus.  The other used manual annotation for each question.  These approaches are detailed in the poster (below).
 
 ## Poster
 

@@ -32,10 +32,10 @@ The script makes the process of updating the combined <abbr>GIS</abbr> layer fas
     <figcaption>Attribute table from Madison City Limits.</figcaption>
 </figure>
 
-Here are the 5 different <abbr>GIS</abbr> layer as viewed <abbr>GIS</abbr> window:
+Here are the five (5) different <abbr>GIS</abbr> layers as viewed <abbr>GIS</abbr> window:
 <figure>
     <img src="/images/limits/5mun_limit_layers.webp">
-    <figcaption>The 5 input GIS layers shown in QGIS software.  Note: QGIS has the ability to reproject data automatically.  There are two different <abbr title="Coordinate Reference System">CRS</abbr> with Alabama State Plane East and Alabama State Plane West.</figcaption>
+    <figcaption>The five (5) input GIS layers shown in QGIS software.  Note: QGIS (software in the screenshot) has the ability to re-project data automatically.  There are two <abbr title="Coordinate Reference System">CRS</abbr> (projections) for State Plane Coordinates in Alabama: East and West.</figcaption>
 </figure>
 
 ## Result Data
