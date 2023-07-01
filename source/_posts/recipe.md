@@ -97,8 +97,7 @@ Below is the Python dictionary of 'Chicken and Black Bean Salsa Burritos':
 </code></pre>
 
 Here's the Python code used to print the above:
-<pre><code class="python-html">
-from scrape_schema_recipe import scrape_url
+<pre><code id="codebox" class="python-html clipboard" aria-describedby="tooltip" title="Click to copy">from scrape_schema_recipe import scrape_url
 import pprint
 
 url = "https://medlineplus.gov/recipes/chicken-and-black-bean-salsa-burritos/"
@@ -119,6 +118,7 @@ This library scrapes the source and gives the results at a list of dictionaries.
 Since schema.org/Recipe data is structured [Microdata](https://developer.mozilla.org/en-US/docs/Web/HTML/Microdata), this is a pattern that web designers and frontend web developers can have a standard way to structure recipe data.  Others software can copying that structured recipe or doing something else with it that it (software doing nutrition calculations, checking if it meets a specific diet, and so on).
 
 Unit testing is used to ensure that future changes do not break existing functionality.
+
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
