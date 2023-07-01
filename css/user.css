@@ -25,3 +25,19 @@ body.darkmode nav.resume-nav {
 img.resume-prj-img {
     float: right;
 }
+
+code.cedid {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+code.cedid:hover {
+    background-color: #bb9;
+}
+
+svg.copy {
+    height: 16px;
+    width: 16px;
+}
+.clipboard:hover{
+    background-color: slategrey;
+}
