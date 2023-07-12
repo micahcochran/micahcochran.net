@@ -112,7 +112,7 @@ I am software development professional available for hire.  I have 16 years expe
             <span itemprop="location">Birmingham, AL</span>
             <link itemprop="sameAs" href="https://www.uab.edu/"></div> 
             <b>M.S. in Computer Science</b> - April 2023 - GPA: 4.0<br>
-            <a href="https://go.uab.edu/cediploma-validation">digitally verify</a> (CeDID: <code class="cedid clipboard" id="cedid" title="Click to copy">23YV-U4XM-MWNN</code> and Name: <code class="cedid" id="cedid">MI</code>)</li>  
+            <a href="https://go.uab.edu/cediploma-validation">digitally verify</a> (CeDID: <code class="cedid clipboard" id="cedid" title="Click to copy">23YV-U4XM-MWNN</code> and First two Letters of my Name: <code class="cedid" id="cedid">MI</code>)</li>  
     <li><div itemprop="alumniOf" itemscope itemtype="https://schema.org/CollegeOrUniversity">
             <b itemprop="name">University of North Alabama</b>,
             <span itemprop="location">Florence, AL</span>

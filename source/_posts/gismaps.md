@@ -7,13 +7,11 @@ categories:
     - projects
 ---
 
-GIS (Geographic Information Systems) duties include creating and maintaining geospatial databases.  Cartographic and graphics design techniques were used to create well-designed maps. 
+GIS (Geographic Information Systems) duties include creating and maintaining geospatial databases.  Cartographic and graphics design techniques were used to create well-designed maps. Below is a selection of the maps that I created.
 
-(Note: Maps shows on this site are NOT official version.  Please refer to the [City of Athens, Alabama](https://athensalabama.us/) Engineering Services and Community Development Department to inquire about the most current versions of these maps.)
+(Note: Maps shows on this site are NOT official versions.  Please refer to the [City of Athens, Alabama](https://athensalabama.us/) Engineering Services and Community Development Department to inquire about the most current versions of these maps.)
 
-Below is a selection of the maps that I created.
-
-Click the map to view a full resolution PDF version.
+Click on the map to view the original PDF version.
 
 <a href="/pdfs/council_districts_map_2015.pdf">
 <figure>
