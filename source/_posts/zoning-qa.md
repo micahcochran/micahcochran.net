@@ -22,6 +22,33 @@ Use natural language questions to answer questions about Zoning instead of havin
 
 <div id="screencast-player"></div>
 
+<pre class="nojs">
+
+Commands:
+    random question(s) - provides you random question(s) that can be asked
+    ask # - ask one of the random questions
+    quit/exit - exits program
+    clear - clear the screen
+    verbose true/false - switch verbosity of program (default false)
+    help - this message
+
+ > What is the minimum front setback in the R3a zoning district?
+2023-05-20 21:16:38.271 | INFO     | relation_extraction:extract:220 - Loading M
+LPClassifier Model: relation_extraction_model.pickle
+Answer: 15 [ft_i]
+Runtime: 2.879 sec
+ > Are restaurants allowed in a C1 zoning district? 
+Answer: Yes
+Runtime: 2.034 sec
+ > Are restaurants allowed in an R1 zoning district?
+Answer: No
+Runtime: 2.104 sec
+ > I would like to build a restaurant.  Which zoning district permits this use?
+Answer: C1, C2, C3, C4
+Runtime: 3.337 sec
+ >
+</pre>
+
 <br>
 
 **Notes:** A <abbr>C1</abbr> zoning district is a Commercial 1 District.  <abbr>R1</abbr> is a Residential 1 Zoning District.  Typically, zoning ordinances would allow restaurant in <abbr>C</abbr> districts, but not in <abbr>R</abbr> districts due to the intensity of the use. 
