@@ -1,7 +1,7 @@
 ---
 title: Zoning Ordinance Question Answering
 date: 2023-03-01 15:49:00
-updated: 2023-05-20 21:54:00
+updated: 2023-07-23 18:36:00
 tags: 
     - Python
     - Natural Language Processing
@@ -76,7 +76,7 @@ Each of these steps shown in the diagram were replicated in the this software.
 
 The International Zoning Code (<abbr>IZC</abbr>) was used as the source material for the Zoning rules used to create the Knowledge Graph. The <abbr>IZC</abbr> is a general Zoning Ordinance that does not contain amendments tailored to a specific jurisdiction. <abbr title="Resource Description Framework">RDF</abbr> triples had to be created to represent permitted uses and dimensional requirements for a Knowledge Graph.
 
-This beauty of this software is it could enable citizen exploration of Zoning laws without having to become a legal expert.  The knowledge graphs could be used by a professional who deal has to ask the same question in multiple Zoning Ordinances.  Find those answers would be easier using SPARQL queries, which can be written once and ran many times (once adopted by local governments).
+This beauty of this software is it enables citizens to explore Zoning laws without having to become zoning experts.  The knowledge graphs could be used by a professional who deal has to ask the same question in multiple zoning ordinances. This is done by creating a query (SPARQL), which can be written once and ran many times (once these knowledge graphs are adopted by local governments).
 
 ## Another Approach
 My team partner, [Seth Lewis](https://www.linkedin.com/in/seth-lewis-bb8999120/), took two different approaches.  One was a training approach that leveraged a corpus.  The other used manual annotation for each question.  These approaches are detailed in the poster (below).
