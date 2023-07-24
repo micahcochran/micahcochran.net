@@ -26,11 +26,13 @@ set imgHeight (string split -f 2 x $PDFpageSize | string split -f 2 ' ')
 # figure out which is the bigger dimension
 if test $imgWidth -gt $imgHeight
     echo "Landscape mode"
-	set resizeCmd '500'
+    set resizeCmd '800'
+#	set resizeCmd '500'
 else
     echo "Portrait mode"
+    set resizeCmd 'x800'
 #    set resizeCmd 'x500'
-    set resizeCmd 'x250'
+#    set resizeCmd 'x250'
 end
 
 set tempFile (mktemp --suffix .ppm)
@@ -49,7 +51,7 @@ convert $tempFile -resize $resizeCmd $resizeName
 if test $status -eq 0
     echo "Resizing was successful. (on file: $outName)"
 end
-cwebp $resizeName -o $outName
+cwebp -jpeg_like $resizeName -o $outName
 
 rm $tempFile
 rm $resizeName
