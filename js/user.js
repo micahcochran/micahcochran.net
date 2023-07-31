@@ -1,3 +1,5 @@
+/* Code written by Micah Cochran */
+
 function copyToClipBoard(obj) {
     text = obj.innerText;
     navigator.clipboard.writeText(text).then(() => {
