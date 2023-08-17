@@ -65,7 +65,10 @@ I am software development professional available for hire.  I have 16 years expe
                     <span itemprop="name">University of Alabama at Birmingham, <a itemprop="sameAs" href="https://www.uab.edu/cas/computerscience/">Computer Science Department</a></span>,
                     <span itemprop="location">Birmingham, AL</span></div>
             </li>
-            <li>Duties: Installed and updated software on lab computers. Set up lab computers for PhD students.  Took inventory of computers and phones.  Created diagrams and publications. Performed basic computer diagnostics.</li>
+            <details>
+                <summary>Duties (expand)</summary>
+                <li>Duties: Installed and updated software on lab computers. Set up lab computers for PhD students.  Took inventory of computers and phones.  Created diagrams and publications. Performed basic computer diagnostics.</li>
+            </details>
         </ul>
     <h3 itemprop="jobTitle">Teaching Assistant</h3>
         <ul>
@@ -111,7 +114,7 @@ I am software development professional available for hire.  I have 16 years expe
             <b itemprop="name">University of Alabama at Birmingham</b>,
             <span itemprop="location">Birmingham, AL</span>
             <link itemprop="sameAs" href="https://www.uab.edu/"></div> 
-            <b>M.S. in Computer Science</b> - April 2023 - GPA: 4.0<br>
+            <b>M.S. in Computer Science</b> - April 2023 - GPA: 4.0 / 4.0<br>
             <a href="https://go.uab.edu/cediploma-validation">digitally verify</a> (CeDID: <code class="cedid clipboard" id="cedid" title="Click to copy">23YV-U4XM-MWNN</code> and First two Letters of my Name: <code class="cedid" id="cedid">MI</code>)</li>  
     <li><div itemprop="alumniOf" itemscope itemtype="https://schema.org/CollegeOrUniversity">
             <b itemprop="name">University of North Alabama</b>,
@@ -163,7 +166,7 @@ I am software development professional available for hire.  I have 16 years expe
 * A [Python](/tags/Python/) web crawler for recipes in HTML [https://schema.org/Recipe](https://schema.org/Recipe) (Microdata/<abbr title="JavaScript Object Notation for Linked Data">JSON-LD)</abbr>, which output cookbooks in JSON format.  Beautiful Soup library is used to get the anchor tags from HTML.  [scrape-schema-recipe](/projects/recipe/) library (below) is used to get the recipes from HTML. 
 * I programmed the software and maintain the repository.
 
-### request_builder.py
+### [request_builder.py](https://github.com/micahcochran/request_builder_py)
 * 2020 to August 2021
 * Command line software that generates agendas and notices using Word Document templates from applicant requests (PDF files).  The [Python](/tags/Python/) software used the PDF form data to fill templates of agendas and public notices.  Templates were tailored to City of Athens processes and messaging.
 * Programmer and user of software.
@@ -305,7 +308,7 @@ Plotly.newPlot('language-course-chart', data, layout);
 ---
 
 ## IT Certificates
-* CompTIA [A+ certified](https://www.youracclaim.com/badges/e4215b02-50be-409f-9175-70e4553c6268/public_url) - July 2020
+* CompTIA [A+ certified](https://www.youracclaim.com/badges/e4215b02-50be-409f-9175-70e4553c6268/public_url) - expired July 2023
 
 ---
 
