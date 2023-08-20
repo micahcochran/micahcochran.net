@@ -16,10 +16,15 @@ Heres a selection of the software used to create this website:
 * [hexo](https://hexo.io/) - static site generator
     * [Minima hexo theme](https://github.com/adisaktijrs/hexo-theme-minima)
 * [Favicon.io](https://favicon.io/) - create a favicon
-* ImageMagick - used with in a shell script (fish) to create thumbnails of the PDF files
+* ImageMagick - used within a shell script (fish) to create thumbnails of the PDF files
 
 [Feather](https://feathericons.com/) icons are used on my resume.
 
 Here's software that is used on this website that has a Javascript component (and occasionally needs updating):
 * [asciinema](https://asciinema.org/)-player - plays back the captured terminal sessions
+* [Chart.js](https://www.chartjs.org/) - used for displaying pie charts on resume.
 * [highlight.js](https://highlightjs.org/) - code syntax highlighting
+
+---
+# Fomerly Used
+* [Plotly.js](https://plotly.com/javascript/) - was used for pie charts on resume.  This library is easy to us and is overkill for casually applications for charts.  Also, its JavaScript file size is a bit large at 5 MiB.

@@ -1,6 +1,7 @@
 ---
 title: Resume
 date: 2023-02-11 18:16:34
+updated: 2023-08-20 12:52:00
 theme: minima
 ---
 <!-- Load Share Tech Mono font -->
@@ -12,8 +13,8 @@ theme: minima
 <script src="https://unpkg.com/feather-icons"></script>
 <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 
-<!-- Load plotly.js -->
-<script src="https://cdn.plot.ly/plotly-2.20.0.min.js" charset="utf-8"></script>
+<!-- load Chart.js version 4.x (built with 4.3.3) -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
 
 
 <nav class="resume-nav">
@@ -167,6 +168,8 @@ I am software development professional available for hire.  I have 16 years expe
 * I programmed the software and maintain the repository.
 
 ### [request_builder.py](https://github.com/micahcochran/request_builder_py)
+<a href="https://github.com/micahcochran/request_builder_py"><img src="/images/resume/PC_Agenda_250px.webp" class="resume-prj-img"></a>
+
 * 2020 to August 2021
 * Command line software that generates agendas and notices using Word Document templates from applicant requests (PDF files).  The [Python](/tags/Python/) software used the PDF form data to fill templates of agendas and public notices.  Templates were tailored to City of Athens processes and messaging.
 * Programmer and user of software.
@@ -199,26 +202,46 @@ I am software development professional available for hire.  I have 16 years expe
 
 
 <figure>
-    <div id="language-project-chart"></div>
+    <div style="width: 300px;"><canvas id="language-project-chart"></canvas></div>
     <figcaption>Chart shows that Python is used in 7 out of 8 projects and Java is used in 1 out of 8 projects.</figcaption>
 </figure>
 
 <script>
-var data = [{
-  values: [1, 7],
+const projectLanguagePieChartData = {
   labels: ['Java', 'Python'],
-  type: 'pie'
-}];
-
-
-var layout = {
-  title: 'Projects by Programming Language',
-  height: 300,
-  width: 500
+  datasets: [{
+    label: 'Projects',
+    data: [1, 7],
+    hoverOffset: 4
+  }]
+};    
+const projectLanguagePieChartConfig = {
+    type: 'pie',
+    data: projectLanguagePieChartData,
+    options: {
+        plugins: {
+            title: {
+                display: true,
+                text: "Projects by Programming Language",
+                padding: {
+                    top: 10,
+                    bottom: 30
+                },
+                font: {
+                    size: 18
+                }
+            },
+            legend: {
+                display: true,
+                position: 'right'
+            }
+        }
+    }
 };
 
+new Chart(document.getElementById('language-project-chart'), 
+          projectLanguagePieChartConfig);
 
-Plotly.newPlot('language-project-chart', data, layout);
 </script>
 
 ---
@@ -226,7 +249,7 @@ Plotly.newPlot('language-project-chart', data, layout);
 ## Select Coursework
 
 <details>
-    <summary>CS&nbsp;501. Programming Languages</summary>
+    <summary>CS&nbsp;501 – Programming Languages</summary>
     <p>CS501 is a programming language overview course. The course will discuss computability, lexing, parsing, type systems, and ways to formalize a language's semantics. The course will introduce students to major programming paradigms, such as functional programming and logic programming, and their realization in programming languages. Students will solve problems using different paradigms and study the impact on program design and implementation. The course enables students to assess strengths and weaknesses of different languages for problem solving.</p>
     <p>Primary programming language: Racket</p>
 </details>
@@ -246,7 +269,7 @@ Plotly.newPlot('language-project-chart', data, layout);
     <p>Primary programming languages: JavaScript and Python</p>
 </details>
 <details>
-    <summary>CS&nbsp;632 - Parallel Computing</summary>
+    <summary>CS&nbsp;632 – Parallel Computing</summary>
     <p>Overview of parallel computing hardware, architectures, & programming paradigms; parallel programming using <abbr title="Message Passing Interface">MPI</abbr>, Pthreads, and OpenMP; design, development, and analysis of parallel algorithms for matrix computations, FFTs, and Sorting.</p>
     <p>Primary programming language: C</p>
 </details>
@@ -270,27 +293,46 @@ Plotly.newPlot('language-project-chart', data, layout);
 
 
 <figure>
-    <div id="language-course-chart"></div>
+    <div style="width: 300px;"><canvas id="language-course-chart"></canvas></div>
     <figcaption>Chart shows the breakdown of primary programming languages used in coursework, which include the languages C, Java, JavaScript, Python, and Racket. (0.5 denotes more than one primary programming language for a particular course.)</figcaption>
 </figure>
 
 
 <script>
-var data = [{
-  values: [2, 2, 0.5, 3.5, 1],
+const courseLanguagePieChartData = {
   labels: ['C', 'Java', 'JavaScript', 'Python', 'Racket'],
-  type: 'pie'
-}];
-
-
-var layout = {
-  title: "Languages by Master's Coursework",
-  height: 300,
-  width: 500
+  datasets: [{
+    label: 'Courses',
+    data: [2, 2, 0.5, 3.5, 1],
+    hoverOffset: 4
+  }]
+};    
+const courseLanguagePieChartConfig = {
+    type: 'pie',
+    data: courseLanguagePieChartData,
+    options: {
+        plugins: {
+            title: {
+                display: true,
+                text: "Languages Used in Master's Coursework",
+                padding: {
+                    top: 10,
+                    bottom: 30
+                },
+                font: {
+                    size: 18
+                }
+            },
+            legend: {
+                display: true,
+                position: 'right'
+            }
+        }
+    }
 };
 
-
-Plotly.newPlot('language-course-chart', data, layout);
+new Chart(document.getElementById('language-course-chart'), 
+          courseLanguagePieChartConfig);
 </script>
 
 
