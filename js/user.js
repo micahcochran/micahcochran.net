@@ -12,7 +12,7 @@ function copyToClipBoard(obj) {
 }
 
 // add copy to clipboard for every element in the clipboard class.
-let clipboardElements = document.getElementsByClassName('clipboard');
+const clipboardElements = document.getElementsByClassName('clipboard');
 
 for(cb of clipboardElements) {
         // add click to class='clipboard'
@@ -26,8 +26,8 @@ for(cb of clipboardElements) {
 // 'nojs' is content intended to be displayed when JavaScript is disabled.
 // This was created so that browsers not having javascript enables could still the text of a screencast.
 // This has the added benefit of making the text available for search engines. 
-let nojsElements = document.getElementsByClassName('nojs');
+const noJsElements = document.getElementsByClassName('nojs');
 
-for(hideElement of nojsElements) {
+for(hideElement of noJsElements) {
         hideElement.style.display = 'none';
 }
