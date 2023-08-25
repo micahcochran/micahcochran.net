@@ -89,7 +89,7 @@ My team partner, [Seth Lewis](https://www.linkedin.com/in/seth-lewis-bb8999120/)
 
 
 ## Reference
-The software method is from this paper:
+The software method for the Knowledge Graph Question Answering System is from this paper:
 > S. Aghaei, E. Raad and A. Fensel, "[Question Answering Over Knowledge Graphs: A Case Study in Tourism,](https://ieeexplore.ieee.org/document/9810255)" in IEEE Access, vol. 10, pp. 69788-69801, 2022, doi: 10.1109/ACCESS.2022.3187178.
 
 
