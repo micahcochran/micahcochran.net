@@ -209,9 +209,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 
-<!-- Load icons from CDN -->
-<script src="https://unpkg.com/feather-icons"></script>
-<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+<!-- Load Bootstrap Icons from CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
 <!-- load Chart.js version 4.x (built with 4.3.3) -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
@@ -229,26 +228,28 @@
 </ul>
 </nav>
 
-<p><img data-feather="file-text"><a href="/pdfs/resume.pdf">PDF copy</a> of Resume</p>
+<p><i class="bi-file-earmark-pdf b-icons"></i> <a href="/pdfs/resume.pdf">PDF copy</a> of Resume</p>
 <article itemscope itemtype="https://schema.org/Person">
 
 
 <h1 id="Micah-D-Cochran-MSCS"><a href="#Micah-D-Cochran-MSCS" class="headerlink" title="Micah D. Cochran, MSCS"></a>Micah D. Cochran, MSCS</h1><address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-    <svg data-feather="map-pin" alt="Address"></svg>
+    <i class="bi-geo-alt b-icons" alt="Address"></i>
     <span itemprop="addressLocality">Springville</span>,
     <span itemprop="addressRegion">Alabama</span>
     <span itemprop="addressCountry">USA</span><br>
 </address>
-<svg data-feather="mail" alt="Email"></svg><a href="mailto:mdcochra@uab.edu" itemprop="email"> mdcochra@uab.edu</a><br>
-<svg data-feather="github"></svg><a target="_blank" rel="noopener" href="https://github.com/micahcochran"> micahcochran</a><br>
-<svg data-feather="linkedin"></svg><a target="_blank" rel="noopener" href="https://www.linkedin.com/in/micahcochran/"> in/micahcochran</a><br>
-<svg data-feather="phone" alt="Phone"></svg><a itemprop="telephone" href="tel:+12563942304"> 256-394-2304</a><br>
+<i class="bi-envelope b-icons" alt="Email"></i> <a href="mailto:mdcochra@uab.edu" itemprop="email"> mdcochra@uab.edu</a><br>
+<i class="bi-github b-icons" alt="GitHub"></i> <a target="_blank" rel="noopener" href="https://github.com/micahcochran"> micahcochran</a><br>
+<i class="bi-linkedin b-icons" alt="Linkedin"></i> <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/micahcochran/"> in/micahcochran</a><br>
+<i class="bi-telephone b-icons" alt="Phone"></i> <a itemprop="telephone" href="tel:+12563942304"> 256-394-2304</a><br>
+<i class="bi-person-vcard b-icons" alt="vCard"></i> <a href="/vcard/contact.vcf">contact info (vCard)</a><br>
+
 <br>
 
 
 <h2 id="Who-Am-I"><a href="#Who-Am-I" class="headerlink" title="Who Am I"></a>Who Am I</h2><p>I am software development professional available for hire.  I have 16 years experience in land development law and Geographic Information Systems (<abbr>GIS</abbr>) working for a municipal Public Works Department.  My interests include Geographic Information Systems, Natural Language Processing, and the Semantic Web.</p>
 <hr>
-<h2 id="Work"><a href="#Work" class="headerlink" title="Work"></a>Work</h2><ul>
+<h2 id="Work-Experience"><a href="#Work-Experience" class="headerlink" title="Work Experience"></a>Work Experience</h2><ul>
     <h3 itemprop="jobTitle"><abbr title="Information Technology">IT</abbr> Student Worker</h3>
         <ul>
             <li>September 2021 - April 2023</li>
@@ -286,10 +287,16 @@
                     <span itemprop="name">City of Athens, Alabama</span>
                     <link itemprop="sameAs" href="https://www.athensalabama.us/">
                 </div> Engineering Services and Community Development Department.</li>
-            <li>Accomplishments: Migrated many maps from paper to online interactive maps.  Programmed a Python script that automated routine <abbr title="Geographic Information Systems">GIS</abbr> data requests reducing the processing time by 1 hour; a script that created a combined municipal limits layer from multiple <abbr title="Geographic Information Systems">GIS</abbr> source; and software which would use PDF applications to create agendas and notices.  Migrated applications from paper to electronic PDFs. Moved site plan review to digital review and moved to digital document signing. Served as City liaison to <abbr title="Federal Emergency Management Agency">FEMA</abbr> during declared disasters in 2011 and 2014. Contracted three aerial photography flights for a multi-department/agency Consortium.
+            <li><h4>Accomplishments:<h4> 
+                <ul>
+                    <li>Migrated many maps from paper to online interactive maps.</li>
+                    <li>Programmed a Python script that automated routine <abbr title="Geographic Information Systems">GIS</abbr> data requests reducing the processing time by 1 hour; a script that created a combined municipal limits layer from multiple <abbr title="Geographic Information Systems">GIS</abbr> source; and software which would use PDF applications to create agendas and notices.</li>
+                    <li>Migrated applications from paper to electronic PDFs. Moved site plan review to digital review and moved to digital document signing.</li>
+                    <li>Served as liaison to <abbr title="Federal Emergency Management Agency">FEMA</abbr> during declared disasters in 2011 and 2014.</li> 
+                    <li>Led a multi-department/agency GIS Consortium to contract three aerial photography flights and Web GIS services.</li>
+                </ul>
             </li>
-            <li>Regular duties included approving plans based on city regulations and
-            communicating with developers about regulations and maintaining Geospatial databases.</li>
+            <li>Regular duties included reviewing civil plans based on city regulations and communicating with developers about regulations, advising customers about how they could modify their plans to comply with local development laws, creating and maintaining Geospatial data, creating and maintaining cartography derived from the data, and distribution of GIS data.</li>
             <li> Led a multi-department/agency Consortium contracting three countywide aerial photography flights.</li>
             <li>See <a href="/projects/gismaps/">GIS Map Portfolio</a> for map examples.</li>
         </ul>
@@ -342,13 +349,13 @@
 </ul>
 <h3 id="recipe-crawler"><a href="#recipe-crawler" class="headerlink" title="recipe-crawler"></a><a href="/projects/recipe-crawler/">recipe-crawler</a></h3><ul>
 <li>June 2021 to present</li>
-<li>A <a href="/tags/Python/">Python</a> web crawler for recipes in HTML <a target="_blank" rel="noopener" href="https://schema.org/Recipe">https://schema.org/Recipe</a> (Microdata&#x2F;<abbr title="JavaScript Object Notation for Linked Data">JSON-LD)</abbr>, which output cookbooks in JSON format.  Beautiful Soup library is used to get the anchor tags from HTML.  <a href="/projects/recipe/">scrape-schema-recipe</a> library (below) is used to get the recipes from HTML. </li>
+<li>A <a href="/tags/Python/">Python</a> web crawler for recipes in HTML <a target="_blank" rel="noopener" href="https://schema.org/Recipe">https://schema.org/Recipe</a> (Microdata&#x2F;<abbr title="JavaScript Object Notation for Linked Data">JSON-LD)</abbr>, which output cookbooks in JSON format for testing recipe software.  Uses <a href="/projects/recipe/">scrape-schema-recipe</a> library for parsing recipes and Beautiful Soup library for parsing anchor tags.</li>
 <li>I programmed the software and maintain the repository.</li>
 </ul>
 <h3 id="request-builder-py"><a href="#request-builder-py" class="headerlink" title="request_builder.py"></a><a target="_blank" rel="noopener" href="https://github.com/micahcochran/request_builder_py">request_builder.py</a></h3><p><a target="_blank" rel="noopener" href="https://github.com/micahcochran/request_builder_py"><img src="/images/resume/PC_Agenda_250px.webp" class="resume-prj-img"></a></p>
 <ul>
 <li>2020 to August 2021</li>
-<li>Command line software that generates agendas and notices using Word Document templates from applicant requests (PDF files).  The <a href="/tags/Python/">Python</a> software used the PDF form data to fill templates of agendas and public notices.  Templates were tailored to City of Athens processes and messaging.</li>
+<li>Command line software that generates agendas and notices using Word Document templates from applicant requests (PDF files).  The <a href="/tags/Python/">Python</a> software used the PDF form data to fill templates of agendas and public notices.  Templates were tailored to City’s processes and messaging.</li>
 <li>Programmer and user of software.</li>
 </ul>
 <h3 id="scrape-schema-recipe"><a href="#scrape-schema-recipe" class="headerlink" title="scrape-schema-recipe"></a><a href="/projects/recipe/">scrape-schema-recipe</a></h3><p><a href="/projects/recipe/"><img src="/images/resume/ssr-dict-recipe-250px.webp" class="resume-prj-img"></a></p>
@@ -359,7 +366,7 @@
 </ul>
 <h3 id="pyproj"><a href="#pyproj" class="headerlink" title="pyproj"></a><a target="_blank" rel="noopener" href="https://github.com/pyproj4/pyproj">pyproj</a></h3><ul>
 <li>2016 to 2019</li>
-<li>Python library for cartographic projection and spatial transformation.  It is a wrapper for the PROJ C library using Cython to interface between the C library and the Python. At that point, the project was maintaining a single codebase that would work on Python 2.7 and 3.x.</li>
+<li>Python library for cartographic projection and spatial transformation that wraps the PROJ C library using Cython to interface between the C library and the Python.</li>
 <li>Provided support for end users (programmers), wrote documentation, contributed fixes, wrote unit tests, reviewed user contributions, and merged contributions.</li>
 </ul>
 <h3 id="combined-municipal-limits-geoprocessing"><a href="#combined-municipal-limits-geoprocessing" class="headerlink" title="combined_municipal_limits_geoprocessing"></a><a href="/projects/limits/">combined_municipal_limits_geoprocessing</a></h3><ul>
@@ -515,14 +522,13 @@ new Chart(document.getElementById('language-course-chart'),
 <li>procuring services through an <abbr title="Request for Information/Request for Proposal">RFI&#x2F;RFP</abbr> process</li>
 <li>reviewing documents for regulatory compliance</li>
 <li>training general public over the phone and in person to use online maps</li>
-<li>IT troubleshooting Level 1</li>
 </ul>
 <hr>
 <h2 id="IT-Certificates"><a href="#IT-Certificates" class="headerlink" title="IT Certificates"></a>IT Certificates</h2><ul>
 <li>CompTIA <a target="_blank" rel="noopener" href="https://www.youracclaim.com/badges/e4215b02-50be-409f-9175-70e4553c6268/public_url">A+ certified</a> - expired July 2023</li>
 </ul>
 <hr>
-<h2 id="Other-Activities"><a href="#Other-Activities" class="headerlink" title="Other Activities"></a>Other Activities</h2><ul>
+<h2 id="Volunteer-Experiences"><a href="#Volunteer-Experiences" class="headerlink" title="Volunteer Experiences"></a>Volunteer Experiences</h2><ul>
 <li><p>Athens Pride Coalition</p>
 <ul>
 <li><strong>Co-Founder</strong> (2016–Mar. 2020) and<ul>
@@ -541,11 +547,6 @@ new Chart(document.getElementById('language-course-chart'),
 </ul>
 <h2 id="Contact-Information-QR-Code"><a href="#Contact-Information-QR-Code" class="headerlink" title="Contact Information QR Code"></a>Contact Information QR Code</h2><p><img src="/images/resume/contact_qr_path.svg"></p>
 </article>
-
-<script>
-  // adds feather icons
-  feather.replace()
-</script>
 
 
         </div>

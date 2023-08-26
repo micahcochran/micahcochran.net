@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:4.0
+KIND:individual
+N:Cochran;Micah;David;Mr.;MSCS
+FN:Micah D. Cochran, MSCS
+ADR;TYPE=WORK,PREF:;;;Springville;AL;35146;United States of America
+GENDER:M
+TEL;TYPE=cell:tel:+1-256-394-2304
+TITLE:Software Engineer
+SOURCE:https://www.micahcochran.net/vcard/contact.vcf
+EMAIL:mdcochra@uab.edu
+URL:https://www.micahcochran.net
+TZ:America/Chicago
+REV:20230825T170000Z
+END:VCARD
