@@ -38,6 +38,11 @@ svg.copy {
     height: 16px;
     width: 16px;
 }
+
 .clipboard:hover{
     background-color: slategrey;
+}
+
+i.b-icons {
+    font-size: 2rem;
 }

@@ -1,7 +1,7 @@
 ---
 title: Resume
 date: 2023-02-11 18:16:34
-updated: 2023-08-20 12:52:00
+updated: 2023-08-26 12:10:00
 theme: minima
 ---
 <!-- Load Share Tech Mono font -->
@@ -9,9 +9,8 @@ theme: minima
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 
-<!-- Load icons from CDN -->
-<script src="https://unpkg.com/feather-icons"></script>
-<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+<!-- Load Bootstrap Icons from CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
 <!-- load Chart.js version 4.x (built with 4.3.3) -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
@@ -28,7 +27,7 @@ theme: minima
 
 </nav>
 
-<img data-feather="file-text">[PDF copy](/pdfs/resume.pdf) of Resume
+<i class="bi-file-earmark-pdf b-icons"></i> [PDF copy](/pdfs/resume.pdf) of Resume
 
 <article itemscope itemtype="https://schema.org/Person">
 
@@ -36,15 +35,17 @@ theme: minima
 # Micah D. Cochran, MSCS
 
 <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-    <svg data-feather="map-pin" alt="Address"></svg>
+    <i class="bi-geo-alt b-icons" alt="Address"></i>
     <span itemprop="addressLocality">Springville</span>,
     <span itemprop="addressRegion">Alabama</span>
     <span itemprop="addressCountry">USA</span><br>
 </address>
-<svg data-feather="mail" alt="Email"></svg><a href="mailto:mdcochra@uab.edu" itemprop="email"> mdcochra@uab.edu</a><br>
-<svg data-feather="github"></svg><a href="https://github.com/micahcochran"> micahcochran</a><br>
-<svg data-feather="linkedin"></svg><a href="https://www.linkedin.com/in/micahcochran/"> in/micahcochran</a><br>
-<svg data-feather="phone" alt="Phone"></svg><a itemprop="telephone" href="tel:+12563942304"> 256-394-2304</a><br>
+<i class="bi-envelope b-icons" alt="Email"></i> <a href="mailto:mdcochra@uab.edu" itemprop="email"> mdcochra@uab.edu</a><br>
+<i class="bi-github b-icons" alt="GitHub"></i> <a href="https://github.com/micahcochran"> micahcochran</a><br>
+<i class="bi-linkedin b-icons" alt="Linkedin"></i> <a href="https://www.linkedin.com/in/micahcochran/"> in/micahcochran</a><br>
+<i class="bi-telephone b-icons" alt="Phone"></i> <a itemprop="telephone" href="tel:+12563942304"> 256-394-2304</a><br>
+<i class="bi-person-vcard b-icons" alt="vCard"></i> <a href="/vcard/contact.vcf">contact info (vCard)</a><br>
+
 <br>
 
 
@@ -54,7 +55,7 @@ I am software development professional available for hire.  I have 16 years expe
 
 ---
 
-## Work
+## Work Experience
 
 <ul>
     <h3 itemprop="jobTitle"><abbr title="Information Technology">IT</abbr> Student Worker</h3>
@@ -94,10 +95,16 @@ I am software development professional available for hire.  I have 16 years expe
                     <span itemprop="name">City of Athens, Alabama</span>
                     <link itemprop="sameAs" href="https://www.athensalabama.us/">
                 </div> Engineering Services and Community Development Department.</li>
-            <li>Accomplishments: Migrated many maps from paper to online interactive maps.  Programmed a Python script that automated routine <abbr title="Geographic Information Systems">GIS</abbr> data requests reducing the processing time by 1 hour; a script that created a combined municipal limits layer from multiple <abbr title="Geographic Information Systems">GIS</abbr> source; and software which would use PDF applications to create agendas and notices.  Migrated applications from paper to electronic PDFs. Moved site plan review to digital review and moved to digital document signing. Served as City liaison to <abbr title="Federal Emergency Management Agency">FEMA</abbr> during declared disasters in 2011 and 2014. Contracted three aerial photography flights for a multi-department/agency Consortium.
+            <li><h4>Accomplishments:<h4> 
+                <ul>
+                    <li>Migrated many maps from paper to online interactive maps.</li>
+                    <li>Programmed a Python script that automated routine <abbr title="Geographic Information Systems">GIS</abbr> data requests reducing the processing time by 1 hour; a script that created a combined municipal limits layer from multiple <abbr title="Geographic Information Systems">GIS</abbr> source; and software which would use PDF applications to create agendas and notices.</li>
+                    <li>Migrated applications from paper to electronic PDFs. Moved site plan review to digital review and moved to digital document signing.</li>
+                    <li>Served as liaison to <abbr title="Federal Emergency Management Agency">FEMA</abbr> during declared disasters in 2011 and 2014.</li> 
+                    <li>Led a multi-department/agency GIS Consortium to contract three aerial photography flights and Web GIS services.</li>
+                </ul>
             </li>
-            <li>Regular duties included approving plans based on city regulations and
-            communicating with developers about regulations and maintaining Geospatial databases.</li>
+            <li>Regular duties included reviewing civil plans based on city regulations and communicating with developers about regulations, advising customers about how they could modify their plans to comply with local development laws, creating and maintaining Geospatial data, creating and maintaining cartography derived from the data, and distribution of GIS data.</li>
             <li> Led a multi-department/agency Consortium contracting three countywide aerial photography flights.</li>
             <li>See <a href="/projects/gismaps/">GIS Map Portfolio</a> for map examples.</li>
         </ul>
@@ -163,14 +170,14 @@ I am software development professional available for hire.  I have 16 years expe
 
 ### [recipe-crawler](/projects/recipe-crawler/)
 * June 2021 to present
-* A [Python](/tags/Python/) web crawler for recipes in HTML [https://schema.org/Recipe](https://schema.org/Recipe) (Microdata/<abbr title="JavaScript Object Notation for Linked Data">JSON-LD)</abbr>, which output cookbooks in JSON format.  Beautiful Soup library is used to get the anchor tags from HTML.  [scrape-schema-recipe](/projects/recipe/) library (below) is used to get the recipes from HTML. 
+* A [Python](/tags/Python/) web crawler for recipes in HTML [https://schema.org/Recipe](https://schema.org/Recipe) (Microdata/<abbr title="JavaScript Object Notation for Linked Data">JSON-LD)</abbr>, which output cookbooks in JSON format for testing recipe software.  Uses [scrape-schema-recipe](/projects/recipe/) library for parsing recipes and Beautiful Soup library for parsing anchor tags.
 * I programmed the software and maintain the repository.
 
 ### [request_builder.py](https://github.com/micahcochran/request_builder_py)
 <a href="https://github.com/micahcochran/request_builder_py"><img src="/images/resume/PC_Agenda_250px.webp" class="resume-prj-img"></a>
 
 * 2020 to August 2021
-* Command line software that generates agendas and notices using Word Document templates from applicant requests (PDF files).  The [Python](/tags/Python/) software used the PDF form data to fill templates of agendas and public notices.  Templates were tailored to City of Athens processes and messaging.
+* Command line software that generates agendas and notices using Word Document templates from applicant requests (PDF files).  The [Python](/tags/Python/) software used the PDF form data to fill templates of agendas and public notices.  Templates were tailored to City's processes and messaging.
 * Programmer and user of software.
 
 ### [scrape-schema-recipe](/projects/recipe/)
@@ -182,7 +189,7 @@ I am software development professional available for hire.  I have 16 years expe
 
 ### [pyproj](https://github.com/pyproj4/pyproj)
 * 2016 to 2019
-* Python library for cartographic projection and spatial transformation.  It is a wrapper for the PROJ C library using Cython to interface between the C library and the Python. At that point, the project was maintaining a single codebase that would work on Python 2.7 and 3.x.
+* Python library for cartographic projection and spatial transformation that wraps the PROJ C library using Cython to interface between the C library and the Python.
 * Provided support for end users (programmers), wrote documentation, contributed fixes, wrote unit tests, reviewed user contributions, and merged contributions.
 
 
@@ -344,7 +351,6 @@ new Chart(document.getElementById('language-course-chart'),
 * procuring services through an <abbr title="Request for Information/Request for Proposal">RFI/RFP</abbr> process
 * reviewing documents for regulatory compliance
 * training general public over the phone and in person to use online maps
-* IT troubleshooting Level 1
 
 ---
 
@@ -353,7 +359,7 @@ new Chart(document.getElementById('language-course-chart'),
 
 ---
 
-## Other Activities
+## Volunteer Experiences
 * Athens Pride Coalition
     * **Co-Founder** (2016–Mar. 2020) and
         * Set up organizational structure. Held adult socials. Promoted group.  
@@ -367,8 +373,3 @@ new Chart(document.getElementById('language-course-chart'),
 ![](/images/resume/contact_qr_path.svg)
 
 </article>
-
-<script>
-  // adds feather icons
-  feather.replace()
-</script>
