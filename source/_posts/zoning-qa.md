@@ -1,7 +1,7 @@
 ---
 title: Zoning Ordinance Question Answering
 date: 2023-03-01 15:49:00
-updated: 2023-07-23 18:36:00
+updated: 2023-08-26 15:01:00
 tags: 
     - Python
     - Natural Language Processing
@@ -99,7 +99,7 @@ The software method for the Knowledge Graph Question Answering System is from th
 <script>
     AsciinemaPlayer.create('/ascii/kgqas.cast', document.getElementById('screencast-player'), {
          preload: true,
-         theme: "urban",
-//         theme: "tango",
+//         theme: "urban",
+         theme: "monokai",
     });
 </script>
