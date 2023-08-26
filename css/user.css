@@ -1,6 +1,6 @@
 /* import  stylesheet for asciinema */
 @import url("/ascii/asciinema-player.css");
-@import url("/ascii/urban.css");
+/* @import url("/ascii/urban.css"); */
 
 /* styles resume nav bar */
 nav.resume-nav ul li {
