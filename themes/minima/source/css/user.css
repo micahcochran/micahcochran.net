@@ -27,7 +27,7 @@ img.resume-prj-img {
 }
 
 code.cedid {
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Share Tech Mono', 'Courier New', monospace;
 }
 
 code.cedid:hover {
@@ -45,4 +45,12 @@ svg.copy {
 
 i.b-icons {
     font-size: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-variant-caps: small-caps;
 }

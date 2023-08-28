@@ -1,12 +1,10 @@
 ---
 title: Resume
 date: 2023-02-11 18:16:34
-updated: 2023-08-26 12:10:00
+updated: 2023-08-28 15:49:00
 theme: minima
 ---
-<!-- Load Share Tech Mono font -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Load Share Tech Mono font (only needed for this page, removed the preconnects) -->
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 
 <!-- Load Bootstrap Icons from CDN -->
@@ -18,7 +16,7 @@ theme: minima
 
 <nav class="resume-nav">
 
-* [Work](#Work)
+* [Work Experience](#Work-Experience)
 * [Education](#Education)
 * [Technical Skills](#Technical-Skills)
 * [Projects](#Projects)
@@ -60,7 +58,7 @@ I am software development professional available for hire.  I have 16 years expe
 <ul>
     <h3 itemprop="jobTitle"><abbr title="Information Technology">IT</abbr> Student Worker</h3>
         <ul>
-            <li>September 2021 - April 2023</li>
+            <li>Sep. 2021&ndash;Apr. 2023</li>
             <li>
                 <div itemscope itemtype="https://schema.org/Organization">
                     <span itemprop="name">University of Alabama at Birmingham, <a itemprop="sameAs" href="https://www.uab.edu/cas/computerscience/">Computer Science Department</a></span>,
@@ -72,36 +70,38 @@ I am software development professional available for hire.  I have 16 years expe
             </details>
         </ul>
     <h3 itemprop="jobTitle">Teaching Assistant</h3>
+        <p>Sep. 2022&ndash;Dec. 2022</p>
+        <p itemscope itemtype="https://schema.org/Organization">
+            <span itemprop="name">University of Alabama at Birmingham, Computer Science Department</span>,
+            <link itemprop="sameAs" href="https://www.uab.edu/cas/computerscience/">
+            <span itemprop="location">Birmingham, AL</span></p>
         <ul>
-            <li>September 2022 - December 2022</li>
-            <li>
-                <div itemscope itemtype="https://schema.org/Organization">
-                    <span itemprop="name">University of Alabama at Birmingham, Computer Science Department</span>,
-                    <link itemprop="sameAs" href="https://www.uab.edu/cas/computerscience/">
-                    <span itemprop="location">Birmingham, AL</span></div>
+            <li>Assisted the class CS 221 Web Development, which covered topics HTML, CSS, and JavaScript.
             </li>
-            <li>For the class CS&nbsp;221 Web Development, covered topics HTML5, CSS, and JavaScript.  Held labs and office hours to help students with assignments. Graded student assignments. Coordinated with the professor.</li>
+            <li>Held labs and office hours to help students with assignments. 
+            <li>Graded student assignments.
+            </li>
+            <li>Coordinated with the professor on assignments and grading.
+            </li>
         </ul>
     <h3 itemprop="jobTitle">Geospatial Services Contractor</h3>
-        <ul>
-            <li>August 2021 - May 2022</li>
-            <li>Redrew voting districts based on 2020 Census.</li>
-        </ul>
+        <p>Aug. 2021&ndash;May 2022</p>
+        <p>Redrew voting districts based on 2020 Census.</p>
     <h3 itemprop="jobTitle"><abbr title="Geographic Information Systems">GIS</abbr> Administrator/Coordinator</h3> 
+        <p>Feb. 2005&ndash;Aug. 2021</p>
+        <p>
+            <div itemscope itemtype="https://schema.org/Organization">
+                <span itemprop="name">City of Athens, Alabama</span>
+                <link itemprop="sameAs" href="https://www.athensalabama.us/">
+            </div> Engineering Services and Community Development Department.</p>
         <ul>
-            <li>February 2005 - August 2021</li>
-            <li>
-                <div itemscope itemtype="https://schema.org/Organization">
-                    <span itemprop="name">City of Athens, Alabama</span>
-                    <link itemprop="sameAs" href="https://www.athensalabama.us/">
-                </div> Engineering Services and Community Development Department.</li>
-            <li><h4>Accomplishments:<h4> 
+            <li><h4>Accomplishments:</h4> 
                 <ul>
                     <li>Migrated many maps from paper to online interactive maps.</li>
                     <li>Programmed a Python script that automated routine <abbr title="Geographic Information Systems">GIS</abbr> data requests reducing the processing time by 1 hour; a script that created a combined municipal limits layer from multiple <abbr title="Geographic Information Systems">GIS</abbr> source; and software which would use PDF applications to create agendas and notices.</li>
                     <li>Migrated applications from paper to electronic PDFs. Moved site plan review to digital review and moved to digital document signing.</li>
                     <li>Served as liaison to <abbr title="Federal Emergency Management Agency">FEMA</abbr> during declared disasters in 2011 and 2014.</li> 
-                    <li>Led a multi-department/agency GIS Consortium to contract three aerial photography flights and Web GIS services.</li>
+                    <li>Led a multi-department/agency GIS Consortium that contracted three aerial photography flights and Web GIS services.</li>
                 </ul>
             </li>
             <li>Regular duties included reviewing civil plans based on city regulations and communicating with developers about regulations, advising customers about how they could modify their plans to comply with local development laws, creating and maintaining Geospatial data, creating and maintaining cartography derived from the data, and distribution of GIS data.</li>
@@ -116,20 +116,28 @@ I am software development professional available for hire.  I have 16 years expe
 ## Education
 
 <section>
-    <ul>
-    <li><div itemprop="alumniOf" itemscope itemtype="https://schema.org/CollegeOrUniversity">
-            <b itemprop="name">University of Alabama at Birmingham</b>,
-            <span itemprop="location">Birmingham, AL</span>
-            <link itemprop="sameAs" href="https://www.uab.edu/"></div> 
-            <b>M.S. in Computer Science</b> - April 2023 - GPA: 4.0 / 4.0<br>
-            <a href="https://go.uab.edu/cediploma-validation">digitally verify</a> (CeDID: <code class="cedid clipboard" id="cedid" title="Click to copy">23YV-U4XM-MWNN</code> and First two Letters of my Name: <code class="cedid" id="cedid">MI</code>)</li>  
-    <li><div itemprop="alumniOf" itemscope itemtype="https://schema.org/CollegeOrUniversity">
-            <b itemprop="name">University of North Alabama</b>,
-            <span itemprop="location">Florence, AL</span>
-            <link itemprop="sameAs" href="https://www.una.edu/"></div> 
-            <b>B.A. Geography</b>, Computer Science Minor - 2004</li>
-    <li><b>Certificate in Geographic Information Systems</b><br> University of North Alabama - 2004</li>
-    </ul>
+    <div itemprop="alumniOf" itemscope itemtype="https://schema.org/CollegeOrUniversity">
+        <link itemprop="sameAs" href="https://www.uab.edu/">
+        <h3>M.S. Computer Science - <span itemprop="name">University of Alabama at Birmingham</span></h3>
+        <p>
+            4.0 GPA<br>
+            Aug. 2021 - Apr. 2023, <span itemprop="location">Birmingham, AL</span><br>
+            <a href="https://go.uab.edu/cediploma-validation">digitally verify</a> (CeDID: <code class="cedid clipboard" id="cedid" title="Click to copy">23YV-U4XM-MWNN</code> and First two Letters of my Name: <code class="cedid" id="cedid">MI</code>)
+        </p>
+    </div>
+    <div itemprop="alumniOf" itemscope itemtype="https://schema.org/CollegeOrUniversity">
+        <link itemprop="sameAs" href="https://www.una.edu/">
+        <h3>B.A. Geography - <span itemprop="name">University of North Alabama</span></h3>
+        <p>
+            Aug. 2001 - Dec. 2004, <span itemprop="location">Florence, AL</span><br>
+            Minor: Computer Science
+        </p>
+    </div>
+    <div>
+        <h3>Certificate in Geographic Information Systems - University of North Alabama</h3>
+            <p>Dec. 2004,  Florence, Alabama</p>
+    </div>
+
 </section>
 
 ---
@@ -137,10 +145,10 @@ I am software development professional available for hire.  I have 16 years expe
 ## Technical Skills
 
 * Language: <a href="/tags/Python/" itemprop="knowsAbout">Python</a>, <span itemprop="knowsAbout">C</span>, [Java](/tags/Java/), Shell \[<span itemprop="knowsAbout">bash</span>|<span itemprop="knowsAbout">fish</span>\], <span itemprop="knowsAbout">JavaScript</span>, <span itemprop="knowsAbout">Racket</span>
+* Database Storage: <a href="/tags/MongoDB/" itemprop="knowsAbout">MongoDB</a>, <abbr title="Resource Description Framework"><a href="/tags/RDF/" itemprop="knowsAbout">RDF</a></abbr>, <a href="/tags/SQLite/" itemprop="knowsAbout">SQLite</a>
 * Technology: <a href="/tags/Flask/" itemprop="knowsAbout">Flask</a>, <abbr title="Message Passing Interface" itemprop="knowsAbout">MPI</abbr>, <span itemprop="knowsAbout">OpenMP</span>, <a href="/tags/SPARQL/" itemprop="knowsAbout">SPARQL</a>, <abbr title="Structured Query Language" itemprop="knowsAbout">SQL</abbr>
 * Operating Systems: Linux (multiple distributions) / Windows
 * <abbr title="Integrated Development Environments">IDEs</abbr>: <span itemprop="knowsAbout">Visual Studio Code</span>, <span itemprop="knowsAbout">PyCharm</span>, <span itemprop="knowsAbout">Eclipse</span>, <span itemprop="knowsAbout">Jupyter Notebook</span>
-* Data Storage: <a href="/tags/MongoDB/" itemprop="knowsAbout">MongoDB</a>, <abbr title="Resource Description Framework"><a href="/tags/RDF/" itemprop="knowsAbout">RDF</a></abbr>, <a href="/tags/SQLite/" itemprop="knowsAbout">SQLite</a>
 * Tools: <span itemprop="knowsAbout">git</span> / [GitHub](https://github.com/micahcochran) / GitLab, <span itemprop="knowsAbout">Docker</span>, <span itemprop="knowsAbout">Amazon Web Services</span>, <span itemprop="knowsAbout">pandoc</span>, <a href="/tags/Vagrant/" itemprop="knowsAbout">Vagrant</a>
 * GIS Software: <span itemprop="knowsAbout">ESRI ArcGIS Desktop</span>, <span itemprop="knowsAbout">QGIS</span>
 
@@ -150,7 +158,7 @@ I am software development professional available for hire.  I have 16 years expe
 
 ### [Zoning Ordinance Question Answering](/projects/zoning-qa/)
 <ul>
-    <li>October to December 2022</li>
+    <li>Oct.&ndash;Dec. 2022</li>
     <li>Team project created a Knowledge Graph Question Answering System.  The software answered natural language questions about Zoning Ordinance laws. The Question Answering System recognized the question matched it to a template, found key words, and filled the key words into slots in the SPARQL query. The queries were executed on a Zoning Ordinance Knowledge Graph to obtain the answer.  The class project was for CS&nbsp;662 Natural Language Processing.</li>
 </ul>
 
@@ -158,50 +166,50 @@ I am software development professional available for hire.  I have 16 years expe
 
 <a href="/projects/legal-text/"><img src="/images/resume/legal_text-250px.webp" class="resume-prj-img"></a>
 
-* June to August 2022
+* Jun. 2022–Aug. 2022
 * Present legal codes in a more usable website. Scraped the Constitution of Alabama using the BeautifulSoup library.  Features of this website were displaying legal text, searching, section links, and a user registration system.  Technologies used in this project include: [Python](/tags/Python/), [Flask](/tags/Flask/), and [MongoDB](/tags/MongoDB/).
 
 ### [Agricultural Drone Dashboard](/projects/drone/)
 
 <a href="/projects/drone/"><img src="/images/resume/ag_drone-250px.webp" class="resume-prj-img"></a>
 
-* October 2021 to December 2021
+* Oct. 2021–Dec. 2021
 * Led a four (4) person team that built software for agricultural drone scanning.  The software simulated a flight on the screen and also flew a physical drone.  The team explored the software development process with use cases, state charts, and implementing the software in [Java](/tags/Java/) and JavaFX.  <abbr title="Object-oriented programming">OOP</abbr> patterns were also incorporated into this project.  This was the final project for the [CS 520 Software Engineering class](#Select-Coursework).
 
 ### [recipe-crawler](/projects/recipe-crawler/)
-* June 2021 to present
+* June 2021–present
 * A [Python](/tags/Python/) web crawler for recipes in HTML [https://schema.org/Recipe](https://schema.org/Recipe) (Microdata/<abbr title="JavaScript Object Notation for Linked Data">JSON-LD)</abbr>, which output cookbooks in JSON format for testing recipe software.  Uses [scrape-schema-recipe](/projects/recipe/) library for parsing recipes and Beautiful Soup library for parsing anchor tags.
 * I programmed the software and maintain the repository.
 
 ### [request_builder.py](https://github.com/micahcochran/request_builder_py)
 <a href="https://github.com/micahcochran/request_builder_py"><img src="/images/resume/PC_Agenda_250px.webp" class="resume-prj-img"></a>
 
-* 2020 to August 2021
+* 2020–Aug. 2021
 * Command line software that generates agendas and notices using Word Document templates from applicant requests (PDF files).  The [Python](/tags/Python/) software used the PDF form data to fill templates of agendas and public notices.  Templates were tailored to City's processes and messaging.
 * Programmer and user of software.
 
 ### [scrape-schema-recipe](/projects/recipe/)
 <a href="/projects/recipe/"><img src="/images/resume/ssr-dict-recipe-250px.webp" class="resume-prj-img"></a>
 
-* 2018 to present
+* 2018–present
 * Scrapes recipes from HTML [https://schema.org/Recipe](https://schema.org/Recipe) (Microdata/JSON-LD) into [Python](/tags/Python/) dictionaries. This is an open source library that allows others to use this to build software from this tool.
 * Programmed the software and maintain the repository.
 
 ### [pyproj](https://github.com/pyproj4/pyproj)
-* 2016 to 2019
+* 2016–2019
 * Python library for cartographic projection and spatial transformation that wraps the PROJ C library using Cython to interface between the C library and the Python.
 * Provided support for end users (programmers), wrote documentation, contributed fixes, wrote unit tests, reviewed user contributions, and merged contributions.
 
 
 ### [combined_municipal_limits_geoprocessing](/projects/limits/)
-* 2014 to 2016
+* 2014–2016
 * A Python <abbr title="Extract Transform Load">ETL</abbr> script to combine <abbr title="Geographic Information Systems">GIS</abbr> municipal limit data from four (4) different sources.  The data had two (2) projections and four (4) schemas.  The script was to create one layer with one projection and [one schema](/pdfs/gis_municipal_boundary_schema.pdf).  The result was a single layer of municipal limits that covered Limestone County, AL.
 * Programmer and user.
 
 ### [GIS Maps](/projects/gismaps/)
 <a href="/projects/gismaps/"><img src="/images/resume/trail_map-250px.webp" class="resume-prj-img"></a>
 
-* 2004 to 2022
+* 2004–2022
 * 18 years of creating and maintaining <abbr title="Geographic Information Systems">GIS</abbr> data and cartographic products.
 
 <p style="clear: right">(for other project and miscellaneous open source contributions see GitHub: <a href="https://github.com/micahcochran">micahcochran</a>)</p>
@@ -347,7 +355,7 @@ new Chart(document.getElementById('language-course-chart'),
 ## General Skills
 * Creating and maintaining website content.
 * phone and email customer service for the general public and internal employees
-* designing maps, posters, pamphlets, and forms for use by internal and external audiences and the general public
+* Designing maps, posters, pamphlets, and forms for use by internal and external audiences and the general public.
 * procuring services through an <abbr title="Request for Information/Request for Proposal">RFI/RFP</abbr> process
 * reviewing documents for regulatory compliance
 * training general public over the phone and in person to use online maps
@@ -361,10 +369,10 @@ new Chart(document.getElementById('language-course-chart'),
 
 ## Volunteer Experiences
 * Athens Pride Coalition
-    * **Co-Founder** (2016–Mar. 2020) and
+    * **Co-Founder** (2016–Mar. 2020)
         * Set up organizational structure. Held adult socials. Promoted group.  
     * **Mentor** (2018–Mar. 2020)
-        * Served as a mentor for a youth support group (14-18 years old) of gender and sexual minorities from diverse backgrounds in Athens, Alabama.
+        * Served as a mentor for a youth support group (14–18 years old) of gender and sexual minorities from diverse backgrounds in Athens, Alabama.
         * Prepared home cooked meals for the youth and the support staff.
 
 * Recently, I rediscovered my enjoyment of listening to Heavy Metal music.
