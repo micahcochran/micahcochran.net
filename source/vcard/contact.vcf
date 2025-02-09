@@ -3,13 +3,15 @@ VERSION:4.0
 KIND:individual
 N:Cochran;Micah;David;Mr.;MSCS
 FN:Micah D. Cochran, MSCS
-ADR;TYPE=WORK,PREF:;;;Springville;AL;35146;United States of America
+ADR;TYPE=WORK,PREF:;;;Birmingham;AL;35233;United States of America
+ORG:University of Alabama at Birmingham;Department of Biomedical Informatics
 GENDER:M
 TEL;TYPE=cell:tel:+1-256-394-2304
-TITLE:Software Engineer
+TITLE:Informatics Analyst III
 SOURCE:https://www.micahcochran.net/vcard/contact.vcf
-EMAIL:mdcochra@uab.edu
+EMAIL;TYPE=work:mdcochra@uab.edu
 URL:https://www.micahcochran.net
+LANG:en-US
 TZ:America/Chicago
-REV:20230825T170000Z
+REV:20250208T050000Z
 END:VCARD
